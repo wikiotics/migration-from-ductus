@@ -1,0 +1,32 @@
+#!/web/wikiotics.org/deployenv/bin/python
+
+# Set up path
+import sys
+sys.path.append("/web/wikiotics.org/ductus")
+sys.path.append("/web/wikiotics.org/python-include")
+
+# Initialize Django
+import ductus.settings
+from django.core.management import setup_environ
+setup_environ(ductus.settings)
+
+# Actual script
+import toml, json
+from collections import OrderedDict
+from ductus.wiki.models import WikiRevision
+
+output = []
+for rev in WikiRevision.objects.order_by('timestamp').all():
+    d = OrderedDict()
+    d['page'] = u'/'.join(rev.page.name.split(u':', 1))
+    d['urn'] = rev.urn
+    if rev.author:
+        d['author'] = rev.author.username
+    else:
+        d['author_ip'] = rev.author_ip
+    if rev.log_message:
+        d['log_message'] = rev.log_message
+    d['timestamp'] = rev.timestamp
+    output.append(d)
+#print json.dumps(output)
+print toml.dumps({'revisions': output})
