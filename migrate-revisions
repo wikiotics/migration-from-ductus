@@ -1,29 +1,5 @@
 #!/usr/bin/env python3
 
-# TODO: get jplayer working in the choice lesson
-
-# TODO: get rid of hardcoded javascript variables in pc lesson
-
-# TODO: get storybook lesson working
-
-# TODO: get the loop below configurable to look at just a few things, without git involved.  look at those things, get them working well.  do this work on the master branch.
-
-# TODO: make sure my timestamps are appropriately timezone aware
-
-# TODO: make sure languageCode is appropriately used in the new website somehow -- maybe as an attribute on content div
-
-# TODO: per-language _index.md pages that contain only the title
-
-# TODO: breadcrumbs and navigation
-
-# TODO: prune the lesson json/toml - start with a few representative lessons
-
-# TODO: I think I can do even better with wikitext by disabling macros on the main site and then scraping its html.
-
-# TODO: ipfs for media hashing: ipfs add -Qr directory
-
-# TODO: get javascript minification working
-
 import datetime
 import toml, json
 import requests
