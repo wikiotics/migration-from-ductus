@@ -1,6 +1,10 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
-# TODO: just get the lessons working at all
+# TODO: get jplayer working in the choice lesson
+
+# TODO: get rid of hardcoded javascript variables in pc lesson
+
+# TODO: get storybook lesson working
 
 # TODO: get the loop below configurable to look at just a few things, without git involved.  look at those things, get them working well.  do this work on the master branch.
 
@@ -18,7 +22,7 @@
 
 # TODO: ipfs for media hashing: ipfs add -Qr directory
 
-# FIXME: use python3 for this?
+# TODO: get javascript minification working
 
 import datetime
 import toml, json
