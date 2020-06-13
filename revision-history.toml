@@ -1754,7 +1754,7 @@ author = "trose"
 timestamp = 2010-10-01T10:55:35Z
 
 [[revisions]]
-page = "es/leccixf3n_introductoria"
+page = "es/lección_introductoria"
 urn = "sha384:OihmkDKjOxhAEqi66drqADy7kZbb906b3aKUPxecYjQILFiwh4yLENAKFAtvooo9"
 author = "garrison"
 timestamp = 2010-10-02T20:56:43Z
@@ -1895,31 +1895,31 @@ author = "ian"
 timestamp = 2010-10-11T14:09:21Z
 
 [[revisions]]
-page = "en/cn/\u7b80\u4ecb"
+page = "en/cn/简介"
 urn = "sha384:YZ-9Id9dadyCx3uItg2gK-j2Z0LwWi_5GGb2JfyIF8O3-oYHpK6CFlmKrgiVL8XC"
 author = "ian"
 timestamp = 2010-10-11T14:14:02Z
 
 [[revisions]]
-page = "en/zh/\u7b80\u4ecb"
+page = "en/zh/简介"
 urn = "sha384:YZ-9Id9dadyCx3uItg2gK-j2Z0LwWi_5GGb2JfyIF8O3-oYHpK6CFlmKrgiVL8XC"
 author = "ian"
 timestamp = 2010-10-11T14:16:34Z
 
 [[revisions]]
-page = "en/zh/\u7b80\u4ecb"
+page = "en/zh/简介"
 urn = "sha384:YZ-9Id9dadyCx3uItg2gK-j2Z0LwWi_5GGb2JfyIF8O3-oYHpK6CFlmKrgiVL8XC"
 author = "ian"
 timestamp = 2010-10-11T14:18:08Z
 
 [[revisions]]
-page = "en/\u7b80\u4ecb"
+page = "en/简介"
 urn = "sha384:YZ-9Id9dadyCx3uItg2gK-j2Z0LwWi_5GGb2JfyIF8O3-oYHpK6CFlmKrgiVL8XC"
 author = "ian"
 timestamp = 2010-10-11T14:18:52Z
 
 [[revisions]]
-page = "zh/\u7b80\u4ecb"
+page = "zh/简介"
 urn = "sha384:YZ-9Id9dadyCx3uItg2gK-j2Z0LwWi_5GGb2JfyIF8O3-oYHpK6CFlmKrgiVL8XC"
 author = "ian"
 timestamp = 2010-10-11T14:31:31Z
@@ -1931,13 +1931,13 @@ author = "ian"
 timestamp = 2010-10-11T14:41:56Z
 
 [[revisions]]
-page = "es/Leccixf3ns"
+page = "es/Leccións"
 urn = "sha384:z3YW0wetCKr-SFy84-RdaLD_ryxZ_CdOMT1d7YcxHSrywOd39DZVX0lgC9ccqxej"
 author = "ian"
 timestamp = 2010-10-11T14:45:27Z
 
 [[revisions]]
-page = "es/leccixf3n"
+page = "es/lección"
 urn = "sha384:2BP1wyPm8XOEPE2_xNuiazX2yZbCg4DgJzW9_iPhIDyGPEjB1MKbtMNnj0BTC_PO"
 author = "ian"
 log_message = "added * for newlines"
@@ -1951,19 +1951,19 @@ log_message = "pointed at simplier \"inroduction\" lesson rather than \"lesson i
 timestamp = 2010-10-11T14:50:39Z
 
 [[revisions]]
-page = "zh/\u4e2d\u6587\u8bfe"
+page = "zh/中文课"
 urn = "sha384:hjmRXGaB66zr1PeWameeb54S6TiTVtYxyq_5QH_1y5mY7lWVKhY-HyjMYMjco42s"
 author = "ian"
 timestamp = 2010-10-11T14:52:58Z
 
 [[revisions]]
-page = "zh/\u5929\u6c14"
+page = "zh/天气"
 urn = "sha384:TWKIu6HJDjfwQ9HS2g3JT3NhnwPaxzqqwi_Be-wlOMCmp7TtfBQXgvjzTcxupm_r"
 author = "ian"
 timestamp = 2010-10-11T14:53:58Z
 
 [[revisions]]
-page = "zh/\u4e2d\u6587\u8bfe"
+page = "zh/中文课"
 urn = "sha384:8L6XHIILtMR6UjUMAJVsS-i81r-0SoIIBdrWGyhlPemeP1-gZNDnQEaH-QQfKLxR"
 author = "ian"
 log_message = "converted names to chinese"
@@ -1976,7 +1976,7 @@ author = "ian"
 timestamp = 2010-10-11T14:56:49Z
 
 [[revisions]]
-page = "de/Einfxfchrung"
+page = "de/Einführung"
 urn = "sha384:df5cMjGZMDTBJMmL0i5Qh7aiZUTnrnDIIxJQKQP1Lql-agzUQ2R6ULqOxj_QsZur"
 author = "ian"
 timestamp = 2010-10-11T14:57:25Z
@@ -1989,21 +1989,21 @@ log_message = "converted to german"
 timestamp = 2010-10-11T14:57:40Z
 
 [[revisions]]
-page = "ru/\u0420\u0443\u0441\u0441\u043a\u0438\u0435_\u043b\u0435\u0441\u0441\u043e\u043d\u0441"
+page = "ru/Русские_лессонс"
 urn = "sha384:-38gsdg-tjP88KX6teJ4jXWlJRgVI7GalYHKOR_eyUufmYuPQwF5a3od0QekUEWU"
 author = "ian"
 log_message = "translated to russian"
 timestamp = 2010-10-11T15:02:54Z
 
 [[revisions]]
-page = "ru/\u0420\u0443\u0441\u0441\u043a\u0438\u0435_\u043b\u0435\u0441\u0441\u043e\u043d\u0441"
+page = "ru/Русские_лессонс"
 urn = "sha384:bNp5pRIPoReYz4BjWcSZUm1fQ2P-9PJAFpJspSRkRVD6Ulohr9oAkeyDDgq66Ef6"
 author = "ian"
 log_message = "translated to russian"
 timestamp = 2010-10-11T15:03:27Z
 
 [[revisions]]
-page = "en/ru/\u0412\u0432\u0435\u0434\u0435\u043d\u0438\u0435"
+page = "en/ru/Введение"
 urn = "sha384:cFu_0XKvSlQPGdtGWquGcXF6-dM9TntfSQb7CQ7ZvjjzLzoxuz-Ab2TQiLfYwp5x"
 author = "ian"
 timestamp = 2010-10-11T15:10:38Z
@@ -2072,7 +2072,7 @@ log_message = "added link to spanish wiki lesson page"
 timestamp = 2010-10-11T15:36:00Z
 
 [[revisions]]
-page = "es/leccixf3n"
+page = "es/lección"
 urn = "sha384:FAEwdLaRDJN_HrWAOCZYv2greYRetWftl2Y503VJ2LIdlBHuG3PyKVZA7T_yDwzq"
 author = "ian"
 log_message = "First link"
@@ -2119,13 +2119,13 @@ log_message = "fixed link capitalization"
 timestamp = 2010-10-11T15:45:10Z
 
 [[revisions]]
-page = "es/leccixf3n"
+page = "es/lección"
 urn = "sha384:H1EUVDa2LzWWFLV0zGRBgDgSKiFgR4yXg--XaZ-aF3H64QGYSV1qDt5A2b_6JtJz"
 author = "ian"
 timestamp = 2010-10-11T15:46:08Z
 
 [[revisions]]
-page = "es/leccixf3n"
+page = "es/lección"
 urn = "sha384:RtGp1j0cT3om1XWsxJGP78z1EVY5fCExnwzePhp8oS4MwzurCpdgTJmALNOhBeab"
 author = "ian"
 log_message = "added \" * \" for correct newlines"
@@ -2160,7 +2160,7 @@ log_message = "added namespace tag for link to german wiki"
 timestamp = 2010-10-11T15:59:17Z
 
 [[revisions]]
-page = "ru/\u0412\u0432\u0435\u0434\u0435\u043d\u0438\u0435"
+page = "ru/Введение"
 urn = "sha384:cFu_0XKvSlQPGdtGWquGcXF6-dM9TntfSQb7CQ7ZvjjzLzoxuz-Ab2TQiLfYwp5x"
 author = "ian"
 timestamp = 2010-10-11T16:00:59Z
@@ -2173,7 +2173,7 @@ log_message = "pointed to introduction lesson in correct namespace"
 timestamp = 2010-10-11T16:01:30Z
 
 [[revisions]]
-page = "ru/\u0420\u0443\u0441\u0441\u043a\u0438\u0435_\u043b\u0435\u0441\u0441\u043e\u043d\u0441"
+page = "ru/Русские_лессонс"
 urn = "sha384:eEC5Zf723Q6b7UEOoAPmczXfJCR4hjU7c1NJSwTRZTyh2Z0SwrdWsaSg1bHX1M2w"
 author = "ian"
 timestamp = 2010-10-11T16:02:27Z
@@ -2225,28 +2225,28 @@ log_message = "removed temporary namespace hack \"English lesson - \" from lesso
 timestamp = 2010-10-11T16:24:23Z
 
 [[revisions]]
-page = "ru/\u0420\u0443\u0441\u0441\u043a\u0438\u0435_\u043b\u0435\u0441\u0441\u043e\u043d\u0441"
+page = "ru/Русские_лессонс"
 urn = "sha384:QRlyvnXoxadV0AxDWcdK6eqGpzlDF4Nv2m3Kk7kX0HnTYytYCModqBq9wzMJJFvc"
 author_ip = "74.72.60.26"
 log_message = "testing editing; translated name of lesson into native Russian"
 timestamp = 2010-10-11T16:26:53Z
 
 [[revisions]]
-page = "ru/\u0420\u0443\u0441\u0441\u043a\u0438\u0435_\u043b\u0435\u0441\u0441\u043e\u043d\u0441"
+page = "ru/Русские_лессонс"
 urn = "sha384:grWkQzMS1KSFVIUl04SSHd-C_I-nUXIDgMpqLRSfvc1Xo19W-a3izpAWt88_YWZN"
 author_ip = "74.72.60.26"
 log_message = "testing editing; translated introduction lesson name into native russian"
 timestamp = 2010-10-11T16:29:09Z
 
 [[revisions]]
-page = "ru/\u0420\u0443\u0441\u0441\u043a\u0438\u0435_\u043b\u0435\u0441\u0441\u043e\u043d\u0441"
+page = "ru/Русские_лессонс"
 urn = "sha384:Go1EMIgGbV4NDKIQFO6bvs-hcjrABmt7hYJPhw4ES_J-Wgv-36kltjrj0Mn_UkmZ"
 author = "ian"
 log_message = "test edit: spurious text"
 timestamp = 2010-10-11T16:29:49Z
 
 [[revisions]]
-page = "ru/\u0420\u0443\u0441\u0441\u043a\u0438\u0435_\u043b\u0435\u0441\u0441\u043e\u043d\u0441"
+page = "ru/Русские_лессонс"
 urn = "sha384:Wa8gCN288jmeQhs9Mns45bvDby907CjIDLd_qqmtqaB9R2jITNBznLtWTbWGU5Za"
 author = "ian"
 log_message = "removed test edit material"
@@ -2260,21 +2260,21 @@ log_message = "fixed interwiki links to be in german"
 timestamp = 2010-10-11T19:47:41Z
 
 [[revisions]]
-page = "ru/\u0420\u0443\u0441\u0441\u043a\u0438\u0435_\u043b\u0435\u0441\u0441\u043e\u043d\u0441"
+page = "ru/Русские_лессонс"
 urn = "sha384:zmTJpwHRjhQiOHSZ5DFOa6tE_OJMt8pS3Sq9H7UIbMbVkuPVvw28jNZ5h8enw4jJ"
 author = "garrison"
 log_message = "no need to explicitly set the namespace"
 timestamp = 2010-10-11T19:49:39Z
 
 [[revisions]]
-page = "zh/\u4e2d\u6587\u8bfe"
+page = "zh/中文课"
 urn = "sha384:fXz6C-Q7ScMOZsYP47tdRJC-TZsr7UAOFsewk6yF5-UV-Ujx4XNUnKRtGCjOum5e"
 author = "garrison"
 log_message = "set textwiki language"
 timestamp = 2010-10-11T19:50:21Z
 
 [[revisions]]
-page = "en/\u7b80\u4ecb"
+page = "en/简介"
 urn = ""
 author = "garrison"
 log_message = "was moved to zh wiki"
@@ -2366,31 +2366,31 @@ author_ip = "145.103.250.195"
 timestamp = 2010-10-12T04:12:50Z
 
 [[revisions]]
-page = "pt/Introduxe7xe3o"
+page = "pt/Introdução"
 urn = "sha384:Dl72a_4hxJtjZuqwM6rLXwc19Lv0bwSgironcdhn5ryfN4hreUxCMyre7oPvh6ci"
 author_ip = "145.103.250.195"
 timestamp = 2010-10-12T04:13:32Z
 
 [[revisions]]
-page = "pt/Introduxe7xe3o"
+page = "pt/Introdução"
 urn = "sha384:XSBNxnAwgoCytzbzgtW4Wh1b8TH-62TmxP4MU37cdgVbIj99ye-BiQnz7-9wDiok"
 author_ip = "145.103.250.195"
 timestamp = 2010-10-12T04:16:39Z
 
 [[revisions]]
-page = "pt/Introduxe7xe3o"
+page = "pt/Introdução"
 urn = "sha384:Dl72a_4hxJtjZuqwM6rLXwc19Lv0bwSgironcdhn5ryfN4hreUxCMyre7oPvh6ci"
 author_ip = "145.103.250.195"
 timestamp = 2010-10-12T04:18:19Z
 
 [[revisions]]
-page = "pt/Introduxe7xe3o"
+page = "pt/Introdução"
 urn = "sha384:0u9kviJ6xrctQ3htpAjRympzvlDkMsu9M3qdnoppPYH5fcgCfBImPNKUdG7Pd6g3"
 author_ip = "145.103.250.195"
 timestamp = 2010-10-12T04:25:32Z
 
 [[revisions]]
-page = "ja/\u7dd2\u8ad6"
+page = "ja/緒論"
 urn = "sha384:Dl72a_4hxJtjZuqwM6rLXwc19Lv0bwSgironcdhn5ryfN4hreUxCMyre7oPvh6ci"
 author_ip = "68.175.125.192"
 timestamp = 2010-10-12T10:13:17Z
@@ -2408,7 +2408,7 @@ author_ip = "193.219.57.10"
 timestamp = 2010-10-12T10:25:09Z
 
 [[revisions]]
-page = "ja/\u7dd2\u8ad6"
+page = "ja/緒論"
 urn = "sha384:qr0yyTo_V6yS2lzA0J-bBYw9aNtAxa8Ky3jhStaMEYyq0Q1EJKr5dkwSf4ignOLA"
 author_ip = "68.175.125.192"
 log_message = "half way."
@@ -2428,13 +2428,13 @@ author = "ian"
 timestamp = 2010-10-12T11:09:03Z
 
 [[revisions]]
-page = "ja/\u30ec\u30c3\u30b9\u30f3"
+page = "ja/レッスン"
 urn = "sha384:RAfXKpRthUGHkeDbwnLsUx2_m2kM4GBUby5DXFnISpdoom9p3temFu_PliSyZho5"
 author = "ian"
 timestamp = 2010-10-12T11:10:47Z
 
 [[revisions]]
-page = "ja/\u30ec\u30c3\u30b9\u30f3"
+page = "ja/レッスン"
 urn = "sha384:o0l5RC7qfaSdAFSVcqNgb43I6Jk_ceieBTqpXNSOSny7E7L4E2Y-8_OnzJ1z3Hal"
 author = "ian"
 log_message = "translated to japanese"
@@ -2462,14 +2462,14 @@ log_message = "corrected character paste"
 timestamp = 2010-10-12T11:38:54Z
 
 [[revisions]]
-page = "ja/\u30ec\u30c3\u30b9\u30f3"
+page = "ja/レッスン"
 urn = "sha384:vP2mYfg_RjEBrmrxx9_IP1qHHX8iuIuFPZQLeeho9o83L6lLVge3WwymLORn3b3-"
 author = "ian"
 log_message = "added namespace specifier for japanese to get around bug: it was pointing to the en namespace by default"
 timestamp = 2010-10-12T11:41:13Z
 
 [[revisions]]
-page = "ja/\u30ec\u30c3\u30b9\u30f3"
+page = "ja/レッスン"
 urn = "sha384:BgYmVehtSs7D_VUPQP_AvR3vXzYEIBChldA4NM-3z9CVRK5vMg9v6bLTiNoJSI2q"
 author = "ian"
 log_message = "covered up namespace tag"
@@ -2494,7 +2494,7 @@ author_ip = "68.167.18.122"
 timestamp = 2010-10-12T11:48:51Z
 
 [[revisions]]
-page = "ja/\u30ec\u30c3\u30b9\u30f3"
+page = "ja/レッスン"
 urn = "sha384:niT4vAZv83lCQxLGOM9m5_7UP6SwFMq4kRScXq5Ekzm321MVziwIoKShenZWT6xY"
 author = "ian"
 log_message = "changed language of page to Japanese"
@@ -2676,13 +2676,13 @@ log_message = "added arabic"
 timestamp = 2010-10-12T16:27:06Z
 
 [[revisions]]
-page = "ar/\u0645\u0642\u062f\u0645\u0629"
+page = "ar/مقدمة"
 urn = "sha384:jojMfu1gCCp9FkgZscWJ0HO9zz4ajXpbM6_Gch_q8MtXp2uCtFbix8sHUuTYbbBc"
 author = "ian"
 timestamp = 2010-10-12T16:28:50Z
 
 [[revisions]]
-page = "ja/\u7dd2\u8ad6"
+page = "ja/緒論"
 urn = "sha384:B4aaVeIsUhJ4KZxwcLYrHKMWj0rrnbX05Mb2KQjTf78scasrcgUxXVyMtUehdHkm"
 author_ip = "68.175.125.192"
 log_message = "spacing, formailty, first half."
@@ -2695,14 +2695,14 @@ author = "ian"
 timestamp = 2010-10-12T16:32:34Z
 
 [[revisions]]
-page = "ja/\u7dd2\u8ad6"
+page = "ja/緒論"
 urn = "sha384:lAlN3iAxZoY-RBVCvv62_RkwOreptyn3-o7R-Nr7k-cyBjDw6EXrd-57hlyoQyjV"
 author_ip = "68.175.125.192"
 log_message = "spacing, formality, first half"
 timestamp = 2010-10-12T16:33:52Z
 
 [[revisions]]
-page = "ar/\u0645\u0642\u062f\u0645\u0629"
+page = "ar/مقدمة"
 urn = "sha384:MYbVd3tY_SC2f1Q_Hu_lSzVm8XM19ktdQLTiJwsxIXXebmEM2C7uoLxt8EnJVU0e"
 author = "ian"
 log_message = "translated back to English from the collection of previous languages"
@@ -2716,19 +2716,19 @@ log_message = "added link to intro lesson"
 timestamp = 2010-10-12T16:36:09Z
 
 [[revisions]]
-page = "ar/\u0627\u0644\u062f\u0631\u0648\u0633_\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+page = "ar/الدروس_العربية"
 urn = "sha384:HpMPDbae6YVRrS9WVlArd2sjwnheseuX8nzLNt_ovY2LKWoLUM6NWpu3cOUZ4qx0"
 author = "ian"
 timestamp = 2010-10-12T16:36:45Z
 
 [[revisions]]
-page = "ar/\u0627\u0644\u062f\u0631\u0648\u0633"
+page = "ar/الدروس"
 urn = "sha384:HpMPDbae6YVRrS9WVlArd2sjwnheseuX8nzLNt_ovY2LKWoLUM6NWpu3cOUZ4qx0"
 author = "ian"
 timestamp = 2010-10-12T16:37:26Z
 
 [[revisions]]
-page = "ar/\u0627\u0644\u062f\u0631\u0648\u0633"
+page = "ar/الدروس"
 urn = "sha384:PMtrtA8K3Y5HGSVqjNMImhSY99TwFhyqzyTHog66eaMTP3vJjnWr_BpmgCrhCQVR"
 author = "ian"
 log_message = "translated into arabic"
@@ -2889,7 +2889,7 @@ log_message = "pointed at lesson in correct namespace"
 timestamp = 2010-10-12T17:11:21Z
 
 [[revisions]]
-page = "zh/\u7b80\u4ecb"
+page = "zh/简介"
 urn = "sha384:4MLcE_LXSjmq49QQJ61pgmDBZE4Tw9JE6Gy0osb2d7RCV2j8zxDScVrjhesS_B1B"
 author = "jchan"
 timestamp = 2010-10-12T17:11:37Z
@@ -2929,7 +2929,7 @@ log_message = "added temporary introduction"
 timestamp = 2010-10-12T17:18:41Z
 
 [[revisions]]
-page = "sk/xdavod"
+page = "sk/Úvod"
 urn = "sha384:u58_kQBqDeC_XCT4sF_UM9W8nHi7cSeIYZQ7_07JeVq_p14yKpNF2iRpI-ZXbNvK"
 author = "ian"
 timestamp = 2010-10-12T17:19:18Z
@@ -2942,13 +2942,13 @@ log_message = "moved intro lesson to correct namespace"
 timestamp = 2010-10-12T17:19:45Z
 
 [[revisions]]
-page = "sk/Vyu\u010dovanie"
+page = "sk/Vyučovanie"
 urn = "sha384:x-2qo4EOvVFXoIjg5w1JwfcLwn4omEA0mIgWo5ncKRk8-57-cStZf_aAzUgET-vG"
 author = "ian"
 timestamp = 2010-10-12T17:20:19Z
 
 [[revisions]]
-page = "sk/Vyu\u010dovanie"
+page = "sk/Vyučovanie"
 urn = "sha384:c6sHldihOuDYcTSw7gKjVbKmQSIwOF8GKH5rfQ6C3aa8Qy5y4Ynnlil7v4X5IJzP"
 author = "ian"
 log_message = "translated to slovak"
@@ -2969,7 +2969,7 @@ log_message = "corrected link to Slovak Lessons page"
 timestamp = 2010-10-12T17:22:44Z
 
 [[revisions]]
-page = "he/\u05d4\u05e7\u05d3\u05de\u05d4"
+page = "he/הקדמה"
 urn = "sha384:Dl72a_4hxJtjZuqwM6rLXwc19Lv0bwSgironcdhn5ryfN4hreUxCMyre7oPvh6ci"
 author = "ian"
 timestamp = 2010-10-12T17:43:31Z
@@ -2989,27 +2989,27 @@ log_message = "added introduction"
 timestamp = 2010-10-12T17:51:08Z
 
 [[revisions]]
-page = "he/\u05d4\u05e7\u05d3\u05de\u05d4"
+page = "he/הקדמה"
 urn = "sha384:dGLis7Wqm5TD_Ltc-MutfxUeuiKTDTu1Vw46c78RfAAI4wmGxL1PEx6aOcAS_Rr_"
 author_ip = "84.122.224.189"
 timestamp = 2010-10-12T17:53:16Z
 
 [[revisions]]
-page = "ja/\u7dd2\u8ad6"
+page = "ja/緒論"
 urn = "sha384:BKX4D6blPR4yL_au85WgkxFe9Cf81iN4uQ7XpB4ClX-Yo_W1ULynYxxBP59Wrkgh"
 author_ip = "68.175.125.192"
 log_message = "moar werk?"
 timestamp = 2010-10-12T20:23:31Z
 
 [[revisions]]
-page = "ja/\u7dd2\u8ad6"
+page = "ja/緒論"
 urn = "sha384:9ggdxnoyGIZ4NyN-IjezGsA5kFpKvaUD8yZ8Qxw6vxL7PR29xVpdeeRRfKjkOFhW"
 author_ip = "68.175.125.192"
 log_message = "complete"
 timestamp = 2010-10-12T20:47:58Z
 
 [[revisions]]
-page = "ja/\u7dd2\u8ad6"
+page = "ja/緒論"
 urn = "sha384:pSIWeaa01QlkcFAtFFpExWJaMXZVCEKNvLFB1WJybaSEj2KftL8BQUEf3hTDi3ul"
 author_ip = "68.175.125.192"
 log_message = "final hiragana notes"
@@ -3023,7 +3023,7 @@ log_message = "updated a few things that moved around"
 timestamp = 2010-10-13T00:27:47Z
 
 [[revisions]]
-page = "he/\u05d4\u05e7\u05d3\u05de\u05d4"
+page = "he/הקדמה"
 urn = "sha384:dtQA32TOrFgML9oX4VdpE-bfNdBlr6u5l30sM4tfA9LUik7y9MsKnG2RT18O-kb4"
 author_ip = "84.122.224.189"
 timestamp = 2010-10-13T09:31:09Z
@@ -3041,7 +3041,7 @@ author_ip = "84.122.224.189"
 timestamp = 2010-10-13T10:36:19Z
 
 [[revisions]]
-page = "es/Introduccixf3n"
+page = "es/Introducción"
 urn = "sha384:OihmkDKjOxhAEqi66drqADy7kZbb906b3aKUPxecYjQILFiwh4yLENAKFAtvooo9"
 author = "ian"
 timestamp = 2010-10-13T10:40:25Z
@@ -3054,21 +3054,21 @@ log_message = "moved intro lesson to correct name"
 timestamp = 2010-10-13T10:40:51Z
 
 [[revisions]]
-page = "es/Leccixf3ns"
+page = "es/Leccións"
 urn = "sha384:aLzsiuhgj_4GwPalaTu2Hs6XVkV2FerjROc9spXihcBrGeXnQqh4nLy4DOTAj_cl"
 author = "ian"
 log_message = "moved to correct name"
 timestamp = 2010-10-13T10:42:06Z
 
 [[revisions]]
-page = "es/Leccixf3ns"
+page = "es/Leccións"
 urn = "sha384:7QGQ5nf3momDtquS4mOs5I8kgy_r1S08m-YULrqU0fS9FdLRZGiHERRUc9DyGso1"
 author = "ian"
 log_message = "converted (mostly) to Spanish"
 timestamp = 2010-10-13T10:43:27Z
 
 [[revisions]]
-page = "es/Introduccixf3n"
+page = "es/Introducción"
 urn = "sha384:txhmzLb8zbBqFuwb54XAEtOvgSlarvq6txWwKqHrxV8DMZgtGkGsy_asPIpFnN41"
 author_ip = "84.122.224.189"
 timestamp = 2010-10-13T10:44:48Z
@@ -3107,26 +3107,26 @@ log_message = "wrong section"
 timestamp = 2010-10-13T12:23:33Z
 
 [[revisions]]
-page = "ca/Introduccixf3"
+page = "ca/Introducció"
 urn = "sha384:Dl72a_4hxJtjZuqwM6rLXwc19Lv0bwSgironcdhn5ryfN4hreUxCMyre7oPvh6ci"
 author_ip = "88.15.72.205"
 timestamp = 2010-10-13T13:20:59Z
 
 [[revisions]]
-page = "zh/\u5929\u6c14"
+page = "zh/天气"
 urn = "sha384:KZCDe3dfNnmpbXKTWrkw-GE80dYDw6M58C5KZpGpbjZu2cr97eL5pXGhdbD-9dZn"
 author = "jchan"
 timestamp = 2010-10-13T13:27:53Z
 
 [[revisions]]
-page = "ca/Introduccixf3"
+page = "ca/Introducció"
 urn = "sha384:km-GNETVdAsB4_XU99p9yA_ObHOHEDHqfaRKAbVHDNxaJIq1r8n809dD0bcp_Prj"
 author_ip = "88.15.72.205"
 log_message = "Hello. catalan it's done. BTW, please correct a mispelling mistake, it's not catacalan, it's catalan"
 timestamp = 2010-10-13T13:39:34Z
 
 [[revisions]]
-page = "ja/\u7dd2\u8ad6"
+page = "ja/緒論"
 urn = "sha384:SR_2RuAht-2RG5sfGV7CbuR6Nxh325y8dhQmlov8TYwhqnNb7VXj2fmts0HC9A1U"
 author = "jchan"
 timestamp = 2010-10-13T13:39:51Z
@@ -3153,34 +3153,34 @@ log_message = "added target text"
 timestamp = 2010-10-13T13:51:24Z
 
 [[revisions]]
-page = "ar/\u0645\u0642\u062f\u0645\u0629"
+page = "ar/مقدمة"
 urn = "sha384:c040Xm_CEH8n2JLj7PxCRcoOY5tjsmehR7FZWN7DRIPv6BBP_zThQVnP38yKTa2j"
 author_ip = "109.192.150.120"
 timestamp = 2010-10-13T14:20:39Z
 
 [[revisions]]
-page = "ar/\u0645\u0642\u062f\u0645\u0629"
+page = "ar/مقدمة"
 urn = "sha384:HZeXfjY7g2nbSkFM70_LxrjfJuBTmS5vlcZ_9SKbzQHXSoDJMyD1l7xuwx9PqFH9"
 author_ip = "109.192.150.120"
 timestamp = 2010-10-13T14:23:44Z
 
 [[revisions]]
-page = "pt/Introduxe7xe3o"
+page = "pt/Introdução"
 urn = "sha384:Dl72a_4hxJtjZuqwM6rLXwc19Lv0bwSgironcdhn5ryfN4hreUxCMyre7oPvh6ci"
 author_ip = "187.116.78.32"
 timestamp = 2010-10-13T14:28:21Z
 
 [[revisions]]
-page = "pt/Introduxe7xe3o"
+page = "pt/Introdução"
 urn = "sha384:Dl72a_4hxJtjZuqwM6rLXwc19Lv0bwSgironcdhn5ryfN4hreUxCMyre7oPvh6ci"
 author_ip = "187.116.78.32"
 timestamp = 2010-10-13T14:33:07Z
 
 [[revisions]]
-page = "pt/Introduxe7xe3o"
+page = "pt/Introdução"
 urn = "sha384:qCD_CUfastt-hUm1HnX_4uey_0i7aLKcRa6jS29h9Ed2BPnzaZr2lAnoiXDwUXQy"
 author_ip = "187.116.78.32"
-log_message = "Traduxe7xe3o para o PT, porque antes nxe3o estava."
+log_message = "Tradução para o PT, porque antes não estava."
 timestamp = 2010-10-13T14:34:38Z
 
 [[revisions]]
@@ -3191,13 +3191,13 @@ log_message = "added target text"
 timestamp = 2010-10-13T17:06:28Z
 
 [[revisions]]
-page = "fr/Lexe7ons"
+page = "fr/Leçons"
 urn = "sha384:RklKTvMV2-OOcnHwq46xJdu8frp6eoYIgttBinW8k1ZVVXyC4YXl3s8UeqFgHnRu"
 author = "ian"
 timestamp = 2010-10-13T17:08:20Z
 
 [[revisions]]
-page = "fr/Lexe7ons"
+page = "fr/Leçons"
 urn = "sha384:qGYULRVbhs29U1AGnhl8zDuaOw0GruvaWvIV90OxGzelUCLQnOjw_RYNFb3l_GP_"
 author = "ian"
 log_message = "translated to french"
@@ -3329,7 +3329,7 @@ author = "garrison"
 timestamp = 2010-10-15T23:44:06Z
 
 [[revisions]]
-page = "de/Einfxfchrung"
+page = "de/Einführung"
 urn = "sha384:zmZrEON2RGEDpM6Phpp7UbxBdrSGWSS3_fFRITPxVt_0SjnOszYq1zJjIV1_XJLL"
 author_ip = "209.6.51.73"
 timestamp = 2010-10-16T00:25:59Z
@@ -3341,7 +3341,7 @@ author = "garrison"
 timestamp = 2010-10-16T04:33:51Z
 
 [[revisions]]
-page = "hi/\u092a\u0930\u093f\u091a\u092f"
+page = "hi/परिचय"
 urn = "sha384:Dl72a_4hxJtjZuqwM6rLXwc19Lv0bwSgironcdhn5ryfN4hreUxCMyre7oPvh6ci"
 author = "ian"
 timestamp = 2010-10-16T11:00:44Z
@@ -3447,7 +3447,7 @@ log_message = "removed underscore(_) for clarity rather than adding in concealin
 timestamp = 2010-10-16T16:16:04Z
 
 [[revisions]]
-page = "tr/Giri\u015f"
+page = "tr/Giriş"
 urn = "sha384:Dl72a_4hxJtjZuqwM6rLXwc19Lv0bwSgironcdhn5ryfN4hreUxCMyre7oPvh6ci"
 author = "ian"
 timestamp = 2010-10-17T09:41:55Z
@@ -3481,20 +3481,20 @@ log_message = "set language; replaced WP refer links with direct ones; specified
 timestamp = 2010-10-17T12:30:14Z
 
 [[revisions]]
-page = "ko/\uc18c\uac1c"
+page = "ko/소개"
 urn = "sha384:Dl72a_4hxJtjZuqwM6rLXwc19Lv0bwSgironcdhn5ryfN4hreUxCMyre7oPvh6ci"
 author = "ian"
 timestamp = 2010-10-17T12:39:34Z
 
 [[revisions]]
-page = "ar/\u0645\u0642\u062f\u0645\u0629"
+page = "ar/مقدمة"
 urn = "sha384:qNKPl-6ic6XqURNuTISRieUkJQhlJKCs9YGvT9SldunWaNUtoaNbHATtV3Tk2vwc"
 author = "ian"
 log_message = "attempt at localizing"
 timestamp = 2010-10-17T12:44:50Z
 
 [[revisions]]
-page = "ko/\uc18c\uac1c"
+page = "ko/소개"
 urn = "sha384:WvGaZ0GZNcec1GVnLfUnB9IvbkyPov3-fvoRVrTZ97kSHgCtkkL8ilH2YePSnZXK"
 author_ip = "201.37.129.76"
 timestamp = 2010-10-17T12:57:10Z
@@ -3513,7 +3513,7 @@ author_ip = "124.63.101.22"
 timestamp = 2010-10-17T16:03:17Z
 
 [[revisions]]
-page = "ko/\uc18c\uac1c"
+page = "ko/소개"
 urn = "sha384:oAjQnqBlB6ZsuYINMKYiK9pkXLr3Z5gGCfT0Q9iwd0y_i1Sn8Fj4AIZiAEg2i47v"
 author_ip = "201.37.129.76"
 log_message = "korean fixed"
@@ -3527,13 +3527,13 @@ log_message = "This is a man."
 timestamp = 2010-10-17T16:11:32Z
 
 [[revisions]]
-page = "hi/\u092a\u0930\u093f\u091a\u092f"
+page = "hi/परिचय"
 urn = "sha384:AvnJxwMdjsCxk19h4SY0ilq96xxboxsrUxoiQe-4z3hAUxa9zuGGeUdfcLYLBnOS"
 author_ip = "24.132.0.175"
 timestamp = 2010-10-18T17:10:34Z
 
 [[revisions]]
-page = "hi/\u092a\u0930\u093f\u091a\u092f"
+page = "hi/परिचय"
 urn = "sha384:fYx6uHdWnjVI1D4VlC-ov0L2Ngeb5Rpuwk-G3NKaT82X703VrOaHWy87bhAIpLO_"
 author_ip = "24.132.0.175"
 timestamp = 2010-10-18T17:16:16Z
@@ -3628,13 +3628,13 @@ author = "Qalthos"
 timestamp = 2010-10-20T14:25:32Z
 
 [[revisions]]
-page = "tr/Giri\u015f"
+page = "tr/Giriş"
 urn = "sha384:xwpCe84UZioy_cu8oie0vYI62S10ibTCZ1QYzS6viKlrMONLZ6CGWq0k0S7sxPC-"
 author_ip = "78.162.185.148"
 timestamp = 2010-10-20T19:16:07Z
 
 [[revisions]]
-page = "tr/Giri\u015f"
+page = "tr/Giriş"
 urn = "sha384:yrBpqHLtvFOfKrOqglHCM_C_3Xh3rF2kuJw3WPdpv2yr3gHTf1yVy84ealBmB6IN"
 author_ip = "78.162.185.148"
 timestamp = 2010-10-20T19:22:47Z
@@ -3673,7 +3673,7 @@ log_message = "added a few forks of the weather lesson"
 timestamp = 2010-10-20T20:31:08Z
 
 [[revisions]]
-page = "tr/Giri\u015f"
+page = "tr/Giriş"
 urn = "sha384:yrBpqHLtvFOfKrOqglHCM_C_3Xh3rF2kuJw3WPdpv2yr3gHTf1yVy84ealBmB6IN"
 author_ip = "195.142.40.50"
 timestamp = 2010-10-21T03:22:31Z
@@ -3693,13 +3693,13 @@ log_message = "added introduction"
 timestamp = 2010-10-21T13:36:30Z
 
 [[revisions]]
-page = "hi/\u092a\u093e\u0920"
+page = "hi/पाठ"
 urn = "sha384:EDjnV9pqmpojImLGTkbS2uTldQYjqqhsbS9OoV47XDXaV1-IY6qLr0LIIm3sOdWO"
 author = "ian"
 timestamp = 2010-10-21T13:37:12Z
 
 [[revisions]]
-page = "hi/\u092a\u093e\u0920"
+page = "hi/पाठ"
 urn = "sha384:U6L75qVk7hCahuCsNJiKjSfVZsc_Kxw6m3-Nn15hoW_dcbm4nEfEzLMqoTKHibyI"
 author = "ian"
 log_message = "converted to Hindi"
@@ -3979,13 +3979,13 @@ author_ip = "129.21.142.14"
 timestamp = 2010-10-22T14:33:59Z
 
 [[revisions]]
-page = "fa/\u0645\u0639\u0631\u0641\u06cc"
+page = "fa/معرفی"
 urn = "sha384:sVIGftZj8pThCnj--Mc_IftECmsYWsbEMCsy8PynSZvq14SF0FJiFAvKUTPdVN-K"
 author = "ian"
 timestamp = 2010-10-22T14:43:56Z
 
 [[revisions]]
-page = "fa/\u0645\u0639\u0631\u0641\u06cc"
+page = "fa/معرفی"
 urn = "sha384:drpWADVv29J0lMVGgXbyREPzCKh3SDETs0EcdzQLjsiwRTqPq7gHBg3rjrv-WUvN"
 author_ip = "46.100.21.51"
 timestamp = 2010-10-22T17:37:21Z
@@ -4325,7 +4325,7 @@ timestamp = 2010-11-03T12:03:34Z
 page = "en/Hot_vs_Spicy"
 urn = "sha384:OfO8oqf1-h_40dfFBk5YwFJP4cgtKdpdnfwlnmcHncpUovU0WxequzHCyR1-mUxr"
 author_ip = "213.73.35.245"
-log_message = "en espaxf1ol "
+log_message = "en español "
 timestamp = 2010-11-03T12:10:42Z
 
 [[revisions]]
@@ -4528,7 +4528,7 @@ author_ip = "86.46.143.129"
 timestamp = 2010-11-07T19:50:30Z
 
 [[revisions]]
-page = "ja/\u7dd2\u8ad6"
+page = "ja/緒論"
 urn = "sha384:ZAfGgIm5Ukq_8o4WRdzd4UDaHc5Y4503H6Sc8kKJaMZVYqcyBlYSgdsl_CQADnYU"
 author_ip = "58.4.224.212"
 log_message = "The hiragana was wrong for the kanji."
@@ -4581,7 +4581,7 @@ log_message = "Added norwegian, and alpabetiziced the list"
 timestamp = 2010-12-03T13:59:18Z
 
 [[revisions]]
-page = "no/Vxearet"
+page = "no/Vêret"
 urn = "sha384:phYU3hL_JFw6OXOvrmE0qpXk4VYZeeKfTOYAgUDpZH8jTHmEv6dI13coLjetyKsG"
 author_ip = "129.177.48.231"
 timestamp = 2010-12-03T14:01:55Z
@@ -4593,7 +4593,7 @@ author_ip = "129.177.48.231"
 timestamp = 2010-12-03T14:02:13Z
 
 [[revisions]]
-page = "no/Vxearet"
+page = "no/Vêret"
 urn = "sha384:A_3R_2HE9_MDMBsMPh4GoM8WQ5PCF_PE2OVXDFVDXYp3njqF2CM6VgTGjGONsQxz"
 author_ip = "129.177.48.231"
 log_message = "Translated to .no"
@@ -4617,7 +4617,7 @@ timestamp = 2010-12-03T14:10:45Z
 page = "no/Transport"
 urn = "sha384:pRe25ln4yDdnSynYYErgNS57fpuk0MDYYfk1Tu92FKylzRR51d9DA9ogbsvtf0yw"
 author_ip = "129.177.48.231"
-log_message = "Added snxf8ggbxe5t"
+log_message = "Added snøggbåt"
 timestamp = 2010-12-03T14:15:53Z
 
 [[revisions]]
@@ -4640,13 +4640,13 @@ log_message = "added .no"
 timestamp = 2010-12-03T14:17:47Z
 
 [[revisions]]
-page = "no/Rxf8rsle_verb"
+page = "no/Rørsle_verb"
 urn = "sha384:nx-AKfmeDBvnI4IWp3HES_sIgjkyy9euwAgE97NyJ4zg773Q_2on_xApEHheoiXD"
 author_ip = "129.177.48.231"
 timestamp = 2010-12-03T14:19:36Z
 
 [[revisions]]
-page = "no/Rxf8rsle_verb"
+page = "no/Rørsle_verb"
 urn = "sha384:1bUNWgBIxIuix6x7Z_Ophr8E4Vosg7iaArPeCedsk4aw4Ld-rHsRXlV1wr-785F7"
 author_ip = "129.177.48.231"
 log_message = "added .no"
@@ -4814,7 +4814,7 @@ author = "rouklia"
 timestamp = 2010-12-27T21:53:41Z
 
 [[revisions]]
-page = "en/\u03bc\u03b1\u03b8\u03ae\u03bc\u03b1\u03c4\u03b1"
+page = "en/μαθήματα"
 urn = "sha384:sK3PYfUhK49qvfa1nAQQHj4G7qHgPv0L63wSvlbgaBaq577bpdTzCdK6c2lpEvyv"
 author = "rouklia"
 timestamp = 2010-12-27T21:54:33Z
@@ -4838,31 +4838,31 @@ author = "rouklia"
 timestamp = 2010-12-27T21:59:05Z
 
 [[revisions]]
-page = "en/\u03a7\u03c1\u03ce\u03bc\u03b1\u03c4\u03b1"
+page = "en/Χρώματα"
 urn = "sha384:kUmIPeP1NY_Xua2BBHlmWwMYvROY_35Kpas3HHMw3kRcefaBqgdMlgXO0W0mGXoQ"
 author = "rouklia"
 timestamp = 2010-12-27T22:06:58Z
 
 [[revisions]]
-page = "en/\u03a7\u03c1\u03ce\u03bc\u03b1\u03c4\u03b1"
+page = "en/Χρώματα"
 urn = "sha384:ho4w7rHGIhMZwWRsKKOamiQTBf1l2_z1zFjMkAUnqJIKGrvSeG3vmdfIOC0-MSHu"
 author = "rouklia"
 timestamp = 2010-12-27T22:12:41Z
 
 [[revisions]]
-page = "en/\u03a7\u03c1\u03ce\u03bc\u03b1\u03c4\u03b1"
+page = "en/Χρώματα"
 urn = "sha384:O-xUpN0xEwvBcpAbNsK969C7W_EUpO6M3O_btvzQ7KD0M0fo0ssYYSntiABHlkYA"
 author = "rouklia"
 timestamp = 2010-12-27T22:18:58Z
 
 [[revisions]]
-page = "en/\u03a7\u03c1\u03ce\u03bc\u03b1\u03c4\u03b1"
+page = "en/Χρώματα"
 urn = "sha384:AtUWRbeE1fNkw5aWJHjhdS1PvP7meooYZHTog_xiwtvxiiOL3DK0ld4eMGvaEJCK"
 author = "rouklia"
 timestamp = 2010-12-27T22:21:10Z
 
 [[revisions]]
-page = "en/\u03a7\u03c1\u03ce\u03bc\u03b1\u03c4\u03b1"
+page = "en/Χρώματα"
 urn = "sha384:ykTa9Xoa5Zgd7ogMpunKrRWgTTkgycoa89oMIjd8TnetcJP_vpoenYImYpwIZRMx"
 author = "rouklia"
 timestamp = 2010-12-27T22:26:08Z
@@ -4874,25 +4874,25 @@ author = "rouklia"
 timestamp = 2010-12-27T22:29:15Z
 
 [[revisions]]
-page = "en/\u03bc\u03b1\u03b8\u03ae\u03bc\u03b1\u03c4\u03b1"
+page = "en/μαθήματα"
 urn = "sha384:KkFTfp1JClY6iGrFLwa9zDmvSRb86P-gui0sGJQpCsMOPaX1tEE6QkXgZx6_Qd4R"
 author = "rouklia"
 timestamp = 2010-12-27T22:34:56Z
 
 [[revisions]]
-page = "en/\u039a\u03b1\u03b9\u03c1\u03cc\u03c2"
+page = "en/Καιρός"
 urn = "sha384:phYU3hL_JFw6OXOvrmE0qpXk4VYZeeKfTOYAgUDpZH8jTHmEv6dI13coLjetyKsG"
 author = "rouklia"
 timestamp = 2010-12-27T22:36:49Z
 
 [[revisions]]
-page = "en/\u039a\u03b1\u03b9\u03c1\u03cc\u03c2"
+page = "en/Καιρός"
 urn = "sha384:gGU9z6fI1Ej3GfNCZ9_ZCDJ0eiisYT-BYbfvgQp6XpvoLviZO0ixGz-O7Zmiw4BJ"
 author = "rouklia"
 timestamp = 2010-12-27T22:43:19Z
 
 [[revisions]]
-page = "en/\u03bc\u03b1\u03b8\u03ae\u03bc\u03b1\u03c4\u03b1"
+page = "en/μαθήματα"
 urn = "sha384:Fws116eLTtxQr9R5Kwa9znrYTiEbe0oJxuYKC6zG1xI7YI-WWycXTd9QYKpUELYO"
 author = "rouklia"
 timestamp = 2010-12-27T22:43:43Z
@@ -4904,25 +4904,25 @@ author = "rouklia"
 timestamp = 2010-12-27T22:43:59Z
 
 [[revisions]]
-page = "en/\u039a\u03b1\u03b9\u03c1\u03cc\u03c2"
+page = "en/Καιρός"
 urn = "sha384:i5HvyNhjOIMhAsElwZJD6q_mrtR3sctBtEBaMWhTiDcxvCKO-NE-kBQDnZzaoBxc"
 author = "rouklia"
 timestamp = 2010-12-27T22:59:50Z
 
 [[revisions]]
-page = "en/\u039a\u03b1\u03b9\u03c1\u03cc\u03c2"
+page = "en/Καιρός"
 urn = "sha384:qq9xvz1kdxwrUz6OhsQaOHTADA-G_aX_f2mMO7ZrRyVaHoLpsy1S5sF-OCJUd4R7"
 author = "rouklia"
 timestamp = 2010-12-27T23:00:46Z
 
 [[revisions]]
-page = "en/\u039f\u03c5\u03c3\u03b9\u03b1\u03c3\u03c4\u03b9\u03ba\u03ac"
+page = "en/Ουσιαστικά"
 urn = "sha384:CBSDDprXgvYgCIUaa3pFVhnwSTGt-ICMns9XSgypczR0QmIXF7TxpJPPXifqUQ_k"
 author = "rouklia"
 timestamp = 2010-12-27T23:05:55Z
 
 [[revisions]]
-page = "en/\u039f\u03c5\u03c3\u03b9\u03b1\u03c3\u03c4\u03b9\u03ba\u03ac"
+page = "en/Ουσιαστικά"
 urn = "sha384:-oMVt_U9sUqjwUe6hGRGj9e24H8Tl_WvN4WeV5v4-ziHKIWkz1hWEQ-8D8zfxfvR"
 author = "rouklia"
 timestamp = 2010-12-27T23:06:53Z
@@ -4934,7 +4934,7 @@ author = "rouklia"
 timestamp = 2010-12-27T23:08:15Z
 
 [[revisions]]
-page = "en/\u03bc\u03b1\u03b8\u03ae\u03bc\u03b1\u03c4\u03b1"
+page = "en/μαθήματα"
 urn = "sha384:VxaPwhQfjVbjL_BMZ7FgSZVMZjO2Pmm1B5105YPSOJL1xJrHoteeZG8jwF_J_-yh"
 author = "rouklia"
 timestamp = 2010-12-27T23:08:32Z
@@ -4947,25 +4947,25 @@ log_message = "added the newly-made greek lessons to the list :)"
 timestamp = 2010-12-28T07:29:29Z
 
 [[revisions]]
-page = "fa/\u0645\u0639\u0631\u0641\u06cc"
+page = "fa/معرفی"
 urn = "sha384:bAmBq_176l9SNwyut-44mWJNfDyOwbip5EA2bFC7pZxZSJDH7lEim-TcjY5Pn7-G"
 author_ip = "46.100.0.36"
 timestamp = 2011-01-05T06:36:12Z
 
 [[revisions]]
-page = "fa/\u0645\u0639\u0631\u0641\u06cc"
+page = "fa/معرفی"
 urn = "sha384:dD9ngbZB9Qa96sjVPbq3QiY11ClLuYTcfxhQP_SgAaRsAyYMatjIlKEou1R6D_KX"
 author_ip = "46.100.0.36"
 timestamp = 2011-01-05T06:39:07Z
 
 [[revisions]]
-page = "fa/\u0645\u0639\u0631\u0641\u06cc"
+page = "fa/معرفی"
 urn = "sha384:dK3uLQBXINH1ZOvwTr176XD2rJfC_nQnXLCBYIZLORMb2zktpuh1h2ogAVKppIu9"
 author_ip = "46.100.0.36"
 timestamp = 2011-01-05T06:42:51Z
 
 [[revisions]]
-page = "fa/\u0645\u0639\u0631\u0641\u06cc"
+page = "fa/معرفی"
 urn = "sha384:-1roxY9zWYRAmbs4fNSpKubxG68z1Hk2D0ge3wDsSfhqRSMUPj1YSAVQjLh61tJB"
 author_ip = "46.100.0.36"
 timestamp = 2011-01-05T06:44:55Z
@@ -5159,49 +5159,49 @@ author = "Kalle"
 timestamp = 2011-03-05T17:41:17Z
 
 [[revisions]]
-page = "en/Vxe4der"
+page = "en/Väder"
 urn = "sha384:17Tq0uJ3FqFCk7Z-Z2a-pKZBxSVe5rFJ-MFB-do6jDRBwDGuiypKy4CZoY1OUQAQ"
 author = "Kalle"
 timestamp = 2011-03-05T17:41:39Z
 
 [[revisions]]
-page = "en/Vxe4der"
+page = "en/Väder"
 urn = "sha384:NMnXjC9CXAJA0AGNezH5aL7zBf_yRnCbD_kXvVOAdN1jScabtrl_0V89S222x18v"
 author = "Kalle"
 timestamp = 2011-03-05T17:42:18Z
 
 [[revisions]]
-page = "sv/Vxe4der"
+page = "sv/Väder"
 urn = "sha384:NMnXjC9CXAJA0AGNezH5aL7zBf_yRnCbD_kXvVOAdN1jScabtrl_0V89S222x18v"
 author = "Kalle"
 timestamp = 2011-03-05T17:45:48Z
 
 [[revisions]]
-page = "sv/Vxe4der"
+page = "sv/Väder"
 urn = "sha384:NMnXjC9CXAJA0AGNezH5aL7zBf_yRnCbD_kXvVOAdN1jScabtrl_0V89S222x18v"
 author = "Kalle"
 timestamp = 2011-03-05T17:46:51Z
 
 [[revisions]]
-page = "sv/Vxe4der"
+page = "sv/Väder"
 urn = "sha384:17Tq0uJ3FqFCk7Z-Z2a-pKZBxSVe5rFJ-MFB-do6jDRBwDGuiypKy4CZoY1OUQAQ"
 author = "Kalle"
 timestamp = 2011-03-05T17:48:00Z
 
 [[revisions]]
-page = "sv/Vxe4der"
+page = "sv/Väder"
 urn = "sha384:U5_tUc6b93v9UYtxWv0iKaUPqer6URot5-KYnXmPOrerzzTK0JyWH7tIvDZ5_BAB"
 author = "Kalle"
 timestamp = 2011-03-05T17:48:25Z
 
 [[revisions]]
-page = "sv/Vxe4der"
+page = "sv/Väder"
 urn = "sha384:17Tq0uJ3FqFCk7Z-Z2a-pKZBxSVe5rFJ-MFB-do6jDRBwDGuiypKy4CZoY1OUQAQ"
 author = "Kalle"
 timestamp = 2011-03-05T17:49:32Z
 
 [[revisions]]
-page = "sv/Rxf6relseverb"
+page = "sv/Rörelseverb"
 urn = "sha384:nx-AKfmeDBvnI4IWp3HES_sIgjkyy9euwAgE97NyJ4zg773Q_2on_xApEHheoiXD"
 author = "Kalle"
 timestamp = 2011-03-05T17:51:07Z
@@ -5210,7 +5210,7 @@ timestamp = 2011-03-05T17:51:07Z
 page = "en/Links"
 urn = "sha384:M35S0hvVs1b9RiRQ6x9XccPwaDY5Wb_KMEHg64H6i1A6hmPQcW23XuDeGlaNUsEW"
 author = "garrison"
-log_message = "added Sprxe5kskap"
+log_message = "added Språkskap"
 timestamp = 2011-03-19T22:25:50Z
 
 [[revisions]]
@@ -5406,7 +5406,7 @@ log_message = "as written by ian"
 timestamp = 2011-05-10T23:13:24Z
 
 [[revisions]]
-page = "ru/\u0412\u0432\u0435\u0434\u0435\u043d\u0438\u0435"
+page = "ru/Введение"
 urn = "sha384:pZNF6Ney548F1qL9ReAw_QmxBTT92UcFzLn0j5tnsulvsbkqr7CxZmAnv3JOH7Qf"
 author_ip = "88.74.237.193"
 log_message = "Corrected some obvious mistakes; further improvement easily possible."
@@ -5426,7 +5426,7 @@ log_message = "logo contest is over"
 timestamp = 2011-05-15T02:51:52Z
 
 [[revisions]]
-page = "ko/\uc18c\uac1c"
+page = "ko/소개"
 urn = "sha384:77TcuDga80OSTgjQ_UVuCR6NaUCniw_Df5szW2I1rQF8WNqpNIg9E6HLN365EcVc"
 author = "garrison"
 timestamp = 2011-05-17T01:17:05Z
@@ -6287,7 +6287,7 @@ author = "ian"
 timestamp = 2011-07-27T22:10:33Z
 
 [[revisions]]
-page = "fr/Lexe7ons"
+page = "fr/Leçons"
 urn = "sha384:UKrHtnbALNu5axhaxnuxn5jNKSyzbw5dhxPhw34wGmBBkI9zSlU5VjZqTuCaahFf"
 author = "ian"
 timestamp = 2011-07-27T22:10:51Z
@@ -7153,14 +7153,14 @@ timestamp = 2011-10-04T16:35:52Z
 page = "user/ian/FSI-Mandarin-Module01-Unit01"
 urn = "sha384:e_iFRTWtAJniOOkXkPLoL61jme7l_PAcxvlFgZmYmWIuO4Nap6vcm268-HcY3Z_6"
 author = "ian"
-log_message = "reused W\u01d2 shi Wxe1ng Dxe0nixe1n audio"
+log_message = "reused Wǒ shi Wáng Dànián audio"
 timestamp = 2011-10-04T16:39:01Z
 
 [[revisions]]
 page = "user/ian/FSI-Mandarin-Module01-Unit01"
 urn = "sha384:qrMm_WyT-dPRUk6PoUC1YBpuXfMaJvPeBQaeVxpppJJFULSeJl2EA4p7d-6mMPWO"
 author = "ian"
-log_message = "added and repeated \u4f60"
+log_message = "added and repeated 你"
 timestamp = 2011-10-04T17:02:08Z
 
 [[revisions]]
@@ -7195,7 +7195,7 @@ timestamp = 2011-10-04T22:07:27Z
 page = "user/ian/FSI-Mandarin-Module01-Unit01"
 urn = "sha384:whdSGT205KD5Ck6UYginsqtuGtJujUhZGvrQVa6e43r8IYz2l9zPNtroSIjUxaT0"
 author = "ian"
-log_message = "fixed duplicate \u4f60\u662f\u8c01\uff1fthat incorrectly pulled from female voice file rather than new male version. Removed errant duplication of sentence not in original lesson and shiftes other elements up coorespondingly"
+log_message = "fixed duplicate 你是谁？that incorrectly pulled from female voice file rather than new male version. Removed errant duplication of sentence not in original lesson and shiftes other elements up coorespondingly"
 timestamp = 2011-10-05T00:27:39Z
 
 [[revisions]]
@@ -7226,10 +7226,10 @@ author_ip = "197.0.199.244"
 timestamp = 2011-10-05T16:33:02Z
 
 [[revisions]]
-page = "zh/\u7b80\u4ecb"
+page = "zh/简介"
 urn = "sha384:QbksGLQfGiTXfg4pqeJRB7k6ChagYlgXgZOczqUe-bI5cYKyOGbzTPGKh6ZYelMi"
 author = "ian"
-log_message = "replaced ascii ) with unicode full-space one \uff09"
+log_message = "replaced ascii ) with unicode full-space one ）"
 timestamp = 2011-10-08T18:40:08Z
 
 [[revisions]]
@@ -7635,7 +7635,7 @@ log_message = "added audio column indications for podcast rendering"
 timestamp = 2011-11-17T19:15:28Z
 
 [[revisions]]
-page = "user/larryover/Inglxe9s_Txe9cnico"
+page = "user/larryover/Inglés_Técnico"
 urn = "sha384:d_wfFPT-OeCQxAcJ7dxoJwSjICpbGqZb8rNsilkXSmKuLdUQQkdGrZ61-fjvqDaR"
 author = "larryover"
 timestamp = 2011-12-10T20:31:35Z
@@ -9484,17 +9484,17 @@ author_ip = "173.226.172.25"
 timestamp = 2012-01-12T19:44:59Z
 
 [[revisions]]
-page = "ja/\u7dd2\u8ad6"
+page = "ja/緒論"
 urn = "sha384:LOQcrYybBXJ7lOKw-LgcB38rA27Cs_68i_eVRB61OyBgmA2pHNhL0R2VqaSH-J_F"
 author_ip = "83.101.69.165"
-log_message = "Fixed R\u014dmaji: otoko\u2192otokonoko; and Hiragana: \u732b must be \u306d\u3053"
+log_message = "Fixed Rōmaji: otoko→otokonoko; and Hiragana: 猫 must be ねこ"
 timestamp = 2012-01-23T10:50:08Z
 
 [[revisions]]
-page = "ja/\u7dd2\u8ad6"
+page = "ja/緒論"
 urn = "sha384:AksQ3hjtLgx4w3VDiU4sBHcF7d6d-OazJ435pngp6wgQajRUMWVMx1FWNgi8jpkM"
 author_ip = "83.101.69.165"
-log_message = "Fixed a few r\u014dmaji: ona\u2192onna, fixed a weird \u201cg\u201d, imase\u2192imasu"
+log_message = "Fixed a few rōmaji: ona→onna, fixed a weird “g”, imase→imasu"
 timestamp = 2012-01-23T10:58:42Z
 
 [[revisions]]
@@ -9595,17 +9595,17 @@ log_message = "Initial script, with French language portions still in English wi
 timestamp = 2012-01-31T02:56:03Z
 
 [[revisions]]
-page = "en/Meetup_Greetings_(Franxe7ais)"
+page = "en/Meetup_Greetings_(Français)"
 urn = "sha384:lO9wCLXTAqtM6K0OmgfiSqiBPWWyJ0VzJS03K7-kGL-umghJEGIBLzv8JZzZJS7n"
 author = "Laurent"
-log_message = "traduction du modxe8le anglais"
+log_message = "traduction du modèle anglais"
 timestamp = 2012-02-02T16:49:53Z
 
 [[revisions]]
 page = "pt/Verbos_de_Movimento"
 urn = "sha384:fxFxsK9c1YeH_zmiQzx6ehSReW233PzSGlfMI9Z_lEw0R4e0-h2-NTGG6fU-A3Bu"
 author = "saree"
-log_message = "Corregi uma oraxe7xe3o"
+log_message = "Corregi uma oração"
 timestamp = 2012-02-05T05:17:42Z
 
 [[revisions]]
@@ -9640,7 +9640,7 @@ timestamp = 2012-02-14T00:54:35Z
 page = "en/Meetup_Greetings"
 urn = "sha384:kozmpVNNg4nFNGNDGvQ9KygU67reL2nk6XembS39uNq9x7EL99sOSQojVBw9Dk4u"
 author_ip = "83.101.69.165"
-log_message = "Enlish \u2192 English; Bonjur \u2192 Bonjour"
+log_message = "Enlish → English; Bonjur → Bonjour"
 timestamp = 2012-02-14T14:30:50Z
 
 [[revisions]]
@@ -11202,7 +11202,7 @@ log_message = "more english text"
 timestamp = 2012-04-08T13:51:17Z
 
 [[revisions]]
-page = "pt/Introduxe7xe3o"
+page = "pt/Introdução"
 urn = "sha384:maVLHfnvovGp0FJevLaIgjII8iGGLJvbB_RnTtU5eNaNaThsnT1cCLzaFH29p0SR"
 author_ip = "83.99.100.200"
 timestamp = 2012-04-09T14:38:40Z
@@ -11222,7 +11222,7 @@ log_message = "subtitles"
 timestamp = 2012-04-17T14:51:41Z
 
 [[revisions]]
-page = "ru/\u0412\u0432\u0435\u0434\u0435\u043d\u0438\u0435"
+page = "ru/Введение"
 urn = "sha384:647ebD9pTxJfkE0BMJXL8W-Y_dtPbWN_H85WA-2tYtjYU4_tXEuuR2u5EoRdLRoq"
 author_ip = "122.106.123.195"
 timestamp = 2012-04-29T10:55:57Z
@@ -11458,14 +11458,14 @@ author = "Laurent"
 timestamp = 2012-05-20T21:44:57Z
 
 [[revisions]]
-page = "ru/\u0412\u0432\u0435\u0434\u0435\u043d\u0438\u0435"
+page = "ru/Введение"
 urn = "sha384:dLewoFOPqejdUQgvKWiO1L7u3-8kmG67b_JkTBjiNxavktTDodkGSTFKeGMyZs6l"
 author = "Laurent"
 log_message = "add target-language tag"
 timestamp = 2012-05-20T22:05:23Z
 
 [[revisions]]
-page = "pt/Introduxe7xe3o"
+page = "pt/Introdução"
 urn = "sha384:-xPeaQvcQODjywGssP5G1eD002nzbXua7xjH6_nxxiQDrCYKJ4--kjvOizkBXWjW"
 author = "Laurent"
 log_message = "add language tag"
@@ -12175,7 +12175,7 @@ log_message = "tags"
 timestamp = 2012-05-31T16:38:56Z
 
 [[revisions]]
-page = "fa/\u0645\u0639\u0631\u0641\u06cc"
+page = "fa/معرفی"
 urn = "sha384:TfsiLlA6XWThompEkk9bVPB7bMJEXA3hA78Pzwci0gLd4y89BsQCWq0cZ3btbMc8"
 author = "Laurent"
 log_message = "tags"
@@ -12210,7 +12210,7 @@ log_message = "tags"
 timestamp = 2012-05-31T16:57:34Z
 
 [[revisions]]
-page = "ar/\u0645\u0642\u062f\u0645\u0629"
+page = "ar/مقدمة"
 urn = "sha384:QlWQXZ2NquluwI_1pMaud6w2jkS6_0LNDSwEY6LHD6A9vpac-PxuSAWOeZ3MAG9Z"
 author = "Laurent"
 log_message = "tags"
@@ -12224,14 +12224,14 @@ log_message = "tags"
 timestamp = 2012-05-31T16:59:11Z
 
 [[revisions]]
-page = "zh/\u5929\u6c14"
+page = "zh/天气"
 urn = "sha384:2277NzizIqt_ZdclCXWhbhV-FmcwL4tX7v_ezW_XfeYZaCJ9vXfXtKWeDdQ4jECq"
 author = "Laurent"
 log_message = "tags"
 timestamp = 2012-05-31T16:59:31Z
 
 [[revisions]]
-page = "zh/\u7b80\u4ecb"
+page = "zh/简介"
 urn = "sha384:i8riu3vOT_pmDW4_s-YZucSNIjpVAbijon1WOtSh_Z19N3z73mRwXH4HN1xzCVQ2"
 author = "Laurent"
 log_message = "tags"
@@ -12245,14 +12245,14 @@ log_message = "tags"
 timestamp = 2012-05-31T17:00:07Z
 
 [[revisions]]
-page = "en/zh/\u7b80\u4ecb"
+page = "en/zh/简介"
 urn = "sha384:duagWXUDOxUxMHlrkh5cqN7Gi-IGZqbPVr0vvr17QD9qDkVIYlNxOyREI76e_AOk"
 author = "Laurent"
 log_message = "tags"
 timestamp = 2012-05-31T17:01:04Z
 
 [[revisions]]
-page = "ca/Introduccixf3"
+page = "ca/Introducció"
 urn = "sha384:91rnLjNyVAlEkfpVhlSXVlrR3Vvv4xcGR6uX25Sg0M3I7orqea3mfBkAqz_jWELZ"
 author = "Laurent"
 log_message = "tags"
@@ -12584,7 +12584,7 @@ author = "Laurent"
 timestamp = 2012-05-31T17:34:18Z
 
 [[revisions]]
-page = "user/Ericounet/\u0412\u0432\u0435\u0434\u0435\u043d\u0438\u0435"
+page = "user/Ericounet/Введение"
 urn = "sha384:aVqNp1wt6t5enaispaKhZHNTgh2BdX9RDAM2xOM2--ND7KHIsh1YEy-1NZUBNx2_"
 author = "Ericounet"
 timestamp = 2012-06-02T17:16:47Z
@@ -12596,13 +12596,13 @@ author_ip = "205.237.46.195"
 timestamp = 2012-06-04T02:34:25Z
 
 [[revisions]]
-page = "ru/\u0412\u0432\u0435\u0434\u0435\u043d\u0438\u0435"
+page = "ru/Введение"
 urn = "sha384:K6JsjpSzBfMjAhxL7NsCYPpu-JJgDJyA-dClBV4T0eGDMRryaMt3MBAegPqne7AY"
 author_ip = "212.12.20.60"
 timestamp = 2012-06-06T07:09:38Z
 
 [[revisions]]
-page = "ru/\u041f\u043e\u0433\u043e\u0434\u0430"
+page = "ru/Погода"
 urn = "sha384:IfluCMvpptbGnFnSFxWqs2WILyw_z6VEGT6La3exfj3IvP_6E9gVFVOwUWuEURRo"
 author_ip = "212.12.20.60"
 timestamp = 2012-06-06T07:23:29Z
@@ -12763,14 +12763,14 @@ timestamp = 2012-06-11T11:44:25Z
 page = "fr/French_verbs"
 urn = "sha384:Vryp4LvXUOd3u184BLiFZ8B2nWL46ZnmlRVZL46yzOQIKJJm6ebp_Se9VthnkaIM"
 author = "Laurent"
-log_message = "add details for passxe9 simple"
+log_message = "add details for passé simple"
 timestamp = 2012-06-11T13:03:37Z
 
 [[revisions]]
 page = "fr/French_verbs"
 urn = "sha384:rYhBn5scBtBx7gO5l01Vi6vM9aSEkRMOgjPQ2x1zJ78VBdgNrC3VgT_QfGSySEfh"
 author = "Laurent"
-log_message = "passxe9 composxe9"
+log_message = "passé composé"
 timestamp = 2012-06-11T13:13:31Z
 
 [[revisions]]
@@ -13511,7 +13511,7 @@ log_message = "re-saving with spurius new row to test group recognition by backe
 timestamp = 2012-06-19T00:33:15Z
 
 [[revisions]]
-page = "ru/\u041f\u043e\u0433\u043e\u0434\u0430"
+page = "ru/Погода"
 urn = "sha384:R0-0O1OHv9ngMJ6mwEgJYc07WXJZKuVm-dCkKGk3Jyc8C326MewRC14ltHwUcVqO"
 author_ip = "69.117.87.6"
 log_message = "corrected target language tag"
@@ -15749,10 +15749,10 @@ author_ip = "184.198.49.69"
 timestamp = 2012-09-16T13:19:04Z
 
 [[revisions]]
-page = "zh/\u554a"
+page = "zh/啊"
 urn = "sha384:MkBZjButWG6k3maP9R0yX1gXQmIEZP3NjGZAebIBrX47BXzn3x-j10_jMop_U0Nv"
 author_ip = "27.17.30.158"
-log_message = "\u53d1\u653e"
+log_message = "发放"
 timestamp = 2012-09-18T07:37:26Z
 
 [[revisions]]
@@ -16087,7 +16087,7 @@ author = "Laurent"
 timestamp = 2012-09-28T14:07:09Z
 
 [[revisions]]
-page = "es/Introduccixf3n"
+page = "es/Introducción"
 urn = "sha384:gRoB5mFn2uNSy-NBDTVggPEztczAaRga5EUOk_JpKzxrcaKljBqsPtTTdf144Zn8"
 author = "Laurent"
 timestamp = 2012-09-28T14:08:32Z
@@ -16105,13 +16105,13 @@ author = "Laurent"
 timestamp = 2012-09-28T14:13:52Z
 
 [[revisions]]
-page = "hi/\u092a\u0930\u093f\u091a\u092f"
+page = "hi/परिचय"
 urn = "sha384:0ssu8AlFD-5Sb3azOebpliM6lzIkGWx8shjemNdgoDAQVvsQZ9bY-SBGuEZOoPmS"
 author = "Laurent"
 timestamp = 2012-09-28T14:14:10Z
 
 [[revisions]]
-page = "ko/\uc18c\uac1c"
+page = "ko/소개"
 urn = "sha384:RH5zYs0BP-LaUwMsNEha0p8srIRoJTvdN9Vr26A-7ZLsi0VERl-9ZtShGcEcB8tI"
 author = "Laurent"
 timestamp = 2012-09-28T14:14:19Z
@@ -16123,7 +16123,7 @@ author = "Laurent"
 timestamp = 2012-09-28T14:14:31Z
 
 [[revisions]]
-page = "tr/Giri\u015f"
+page = "tr/Giriş"
 urn = "sha384:2FOgUEcJ2Us8oyzBodAXVYapbcevL5HPuBe4Kkdu3phxSNDtycb0rlYdroAVslo-"
 author = "Laurent"
 timestamp = 2012-09-28T14:15:02Z
@@ -16165,13 +16165,13 @@ author = "Laurent"
 timestamp = 2012-09-28T14:23:06Z
 
 [[revisions]]
-page = "he/\u05d4\u05e7\u05d3\u05de\u05d4"
+page = "he/הקדמה"
 urn = "sha384:bMPvzbo9pLeLLQekdsrrh9rfxBTbou2goD0iVzAVvEueEGblH6BPVxPqqvCogWDy"
 author = "Laurent"
 timestamp = 2012-09-28T14:23:57Z
 
 [[revisions]]
-page = "sk/xdavod"
+page = "sk/Úvod"
 urn = "sha384:3gF6ToZc0ORUrZExFqNs4H-wfoGmDzbTjouLUc1dfinJELWTk1Qk6l8csKN-_UD3"
 author = "Laurent"
 timestamp = 2012-09-28T14:24:22Z
@@ -16189,7 +16189,7 @@ author = "Laurent"
 timestamp = 2012-09-28T14:27:15Z
 
 [[revisions]]
-page = "ja/\u7dd2\u8ad6"
+page = "ja/緒論"
 urn = "sha384:iuKV9EDxk_a-DsMLqAI0-pEiXbU98FJ6G13FAM7c1PFprqus8mZmR0heMbHECprt"
 author = "Laurent"
 timestamp = 2012-09-28T14:30:54Z
@@ -16207,7 +16207,7 @@ author = "Laurent"
 timestamp = 2012-09-28T14:32:00Z
 
 [[revisions]]
-page = "de/Einfxfchrung"
+page = "de/Einführung"
 urn = "sha384:l4lttkOhRouZZjTQTHTLq8XNIva6qmbIS9Uv4FGMn4aOfnAki61_c68NQRO0aq31"
 author = "Laurent"
 timestamp = 2012-09-28T14:32:59Z
@@ -16219,19 +16219,19 @@ author = "Laurent"
 timestamp = 2012-09-28T14:33:11Z
 
 [[revisions]]
-page = "en/\u03a7\u03c1\u03ce\u03bc\u03b1\u03c4\u03b1"
+page = "en/Χρώματα"
 urn = "sha384:_1FRCX-HL_7HbGtoJMV1s32rFzs0ZBEm2JCxNgM6TBDfN5GrFM8w0VN8NsPKSC7M"
 author = "Laurent"
 timestamp = 2012-09-28T14:35:29Z
 
 [[revisions]]
-page = "en/\u039a\u03b1\u03b9\u03c1\u03cc\u03c2"
+page = "en/Καιρός"
 urn = "sha384:9LKcMde8KHZZ0Ydb8xP9sprUGWsY0tm1GAmK_RCS1x7iNDfFTdpWyofV69SYQ5ow"
 author = "Laurent"
 timestamp = 2012-09-28T14:35:57Z
 
 [[revisions]]
-page = "en/\u039f\u03c5\u03c3\u03b9\u03b1\u03c3\u03c4\u03b9\u03ba\u03ac"
+page = "en/Ουσιαστικά"
 urn = "sha384:Iq2h_eYJwsUJmHNVLkXworP2AfdVhym2Y1IllfXPBaa3SLT-ze1BZstCImX5PGhH"
 author = "Laurent"
 timestamp = 2012-09-28T14:36:11Z
@@ -16261,7 +16261,7 @@ author = "Laurent"
 timestamp = 2012-09-28T14:38:13Z
 
 [[revisions]]
-page = "no/Vxearet"
+page = "no/Vêret"
 urn = "sha384:xKt7Cqf28I7sCNgMLNO6y186IKgzNvXmBBZjffkN3rT13Sw3lemFJKTiEqPXr6Ez"
 author = "Laurent"
 timestamp = 2012-09-28T14:38:20Z
@@ -16279,7 +16279,7 @@ author = "Laurent"
 timestamp = 2012-09-28T14:38:57Z
 
 [[revisions]]
-page = "no/Rxf8rsle_verb"
+page = "no/Rørsle_verb"
 urn = "sha384:Pr2wIhDr53hmvwRRBtodUkpqX5Qtv--K80RgCuftfgIYZ50qUWtEok5LS_cJ7uuN"
 author = "Laurent"
 timestamp = 2012-09-28T14:39:08Z
@@ -16345,25 +16345,25 @@ author = "Laurent"
 timestamp = 2012-09-28T14:44:06Z
 
 [[revisions]]
-page = "sv/Vxe4der"
+page = "sv/Väder"
 urn = "sha384:SmeNTc0brQznDw5xfsMFeuC--MJMOCy62w1M011aAT06QopL4k2mtWvXXpRJXT3B"
 author = "Laurent"
 timestamp = 2012-09-28T14:45:09Z
 
 [[revisions]]
-page = "sv/Rxf6relseverb"
+page = "sv/Rörelseverb"
 urn = "sha384:KsMuvhKfY-JPzv0wrGoIQv6ZLMdD8I2iGBacFBi2Zj7b65C-xK6XxIFuYZtmhVBl"
 author = "Laurent"
 timestamp = 2012-09-28T14:45:21Z
 
 [[revisions]]
-page = "sv/Rxf6relseverb"
+page = "sv/Rörelseverb"
 urn = "sha384:ECM5o7znA370CCDTm9z-AfHPSlb72R0qeEpps_HuJ3OsV6lv0lgG8QoB8qu6aovG"
 author = "Laurent"
 timestamp = 2012-09-28T14:47:15Z
 
 [[revisions]]
-page = "en/Vxe4der"
+page = "en/Väder"
 urn = "sha384:-oS6ERHuJOFmjJvTlBDSqZAwznxqr-S_z7ddGm-jxrvm7CNziUr4Oc4deaT_Szj8"
 author = "Laurent"
 timestamp = 2012-09-28T14:47:38Z
@@ -17230,7 +17230,7 @@ author = "Laurent"
 timestamp = 2012-10-12T21:41:48Z
 
 [[revisions]]
-page = "en/Meetup_Greetings_(Franxe7ais)"
+page = "en/Meetup_Greetings_(Français)"
 urn = "sha384:zcElPL3P9CI56xeyjnZ9qoYE41oQ09qHxn5wLCowYjdFV5_rvSR-axq5RBnqTjzf"
 author = "Laurent"
 timestamp = 2012-10-12T21:42:23Z
@@ -17510,13 +17510,13 @@ author = "ian"
 timestamp = 2012-10-13T18:58:54Z
 
 [[revisions]]
-page = "es/Introduccixf3n"
+page = "es/Introducción"
 urn = "sha384:wwf8F0uE-6-IqmRLFojKSO7aTB-DRuVokOmLyAm4pNP0y8YYUThYZBd5880en_5x"
 author = "ian"
 timestamp = 2012-10-13T19:01:10Z
 
 [[revisions]]
-page = "es/Introduccixf3n"
+page = "es/Introducción"
 urn = "sha384:7XAcPAViyi9SqpPA-4vQjheLTqjhyb27yyTeDcvQeleim3r80tXGg0DiFV6ghKfi"
 author = "ian"
 timestamp = 2012-10-13T19:01:31Z
@@ -17528,7 +17528,7 @@ author = "mxc"
 timestamp = 2012-10-13T19:01:36Z
 
 [[revisions]]
-page = "es/Introduccixf3n"
+page = "es/Introducción"
 urn = "sha384:Wm42SEwKVr0Yy4ChfpXwjpibzX0oYXw_1KyoI6P0Jfr_mKFqM3PQvkLIhoZmtOF8"
 author = "ian"
 timestamp = 2012-10-13T19:02:00Z
@@ -17546,7 +17546,7 @@ author = "Lilybainne"
 timestamp = 2012-10-13T19:02:53Z
 
 [[revisions]]
-page = "es/Introduccixf3n"
+page = "es/Introducción"
 urn = "sha384:E7WWvx0ApkmagUMccBgTHkaS-99R_5-lSenSyzFzmMr96pDpQre1p-WmNiTR6vFU"
 author = "ian"
 timestamp = 2012-10-13T19:05:18Z
@@ -17709,7 +17709,7 @@ author = "Laurent"
 timestamp = 2012-10-22T14:39:56Z
 
 [[revisions]]
-page = "fr/Lexe7ons"
+page = "fr/Leçons"
 urn = ""
 author = "Laurent"
 log_message = "listing page now useless thanks to index"
@@ -18942,7 +18942,7 @@ author = "rajeshkumari"
 timestamp = 2012-10-26T09:39:27Z
 
 [[revisions]]
-page = "hi/\u0926\u093f\u0936\u093e\u0913\u0902_\u0915\u0947_\u0932\u093f\u090f_\u092a\u0942\u091b"
+page = "hi/दिशाओं_के_लिए_पूछ"
 urn = "sha384:copkCM_GDVGMOCEESVCz9gpXui8aOoW27aDSKnpcFUO_VATA47Su9N8OrQOYbi4p"
 author_ip = "14.140.106.2"
 timestamp = 2012-10-26T09:39:57Z
@@ -18966,7 +18966,7 @@ author = "dharna.gautam"
 timestamp = 2012-10-26T09:51:56Z
 
 [[revisions]]
-page = "hi/\u0926\u093f\u0936\u093e\u0913\u0902_\u0915\u0947_\u0932\u093f\u090f_\u092a\u0942\u091b"
+page = "hi/दिशाओं_के_लिए_पूछ"
 urn = "sha384:UOCvOInnTdiCeklYlChdMkXtmh8NzQTxuyfpplWQi8NuuvXhzqM72xDOPTNxyw85"
 author_ip = "14.140.106.2"
 timestamp = 2012-10-26T09:55:50Z
@@ -18992,28 +18992,28 @@ author = "ian"
 timestamp = 2012-10-26T10:14:30Z
 
 [[revisions]]
-page = "ar/\u0627\u0644\u062f\u0631\u0648\u0633"
+page = "ar/الدروس"
 urn = "sha384:JvO5NaAGp7pdHDkQzn-d8u0k6ncF3bm6m3IsQVVvT4mYOBf-vn1L5ZY2svN8dLNg"
 author = "ian"
 log_message = "added target language tag"
 timestamp = 2012-10-26T10:14:55Z
 
 [[revisions]]
-page = "ar/\u0627\u0644\u062f\u0631\u0648\u0633_\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+page = "ar/الدروس_العربية"
 urn = "sha384:pYJpSAT1ieYN5PX3Pj7pt6v1fHef9UbaofNMczSdD5HmlwBnmMc8nuVd3T_s9PfZ"
 author = "ian"
 log_message = "added target language tag"
 timestamp = 2012-10-26T10:15:07Z
 
 [[revisions]]
-page = "ar/\u0627\u0644\u062f\u0631\u0648\u0633"
+page = "ar/الدروس"
 urn = ""
 author = "ian"
 log_message = "removed old navigation page made unuseful by search pages"
 timestamp = 2012-10-26T10:16:52Z
 
 [[revisions]]
-page = "ar/\u0627\u0644\u062f\u0631\u0648\u0633_\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+page = "ar/الدروس_العربية"
 urn = ""
 author = "ian"
 log_message = "removed old navigation page made unuseful by search pages"
@@ -20629,28 +20629,28 @@ log_message = "empty lesson"
 timestamp = 2013-04-03T18:04:01Z
 
 [[revisions]]
-page = "es/gxe9nero_en_espaxf1ol"
+page = "es/género_en_español"
 urn = "sha384:MyEuv_m14Kh4y-jEmXOG05PzrE_E-KRclFpIlFetvgqd2TGMcusxyUqKVF-IpJtr"
 author_ip = "69.115.216.77"
 log_message = "initial phrases"
 timestamp = 2013-04-04T15:47:24Z
 
 [[revisions]]
-page = "es/gxe9nero_en_espaxf1ol"
+page = "es/género_en_español"
 urn = "sha384:Z1mJrZwiZPPtkFR22pj53DdHOe8BmVpa_gXn1GPqLz6yIeav60hi9C7VRwKhDWeV"
 author_ip = "69.115.216.77"
 log_message = "pictures for all lines"
 timestamp = 2013-04-04T16:47:29Z
 
 [[revisions]]
-page = "es/gxe9nero_en_espaxf1ol"
+page = "es/género_en_español"
 urn = "sha384:jWDlFw22kIwrHYzH74BtDA_gw_DTimaAEXWMmQUeS5CNP1vKI0mgs7k8KlmQ2n5s"
 author_ip = "69.115.216.77"
 log_message = "fixed gender of #6"
 timestamp = 2013-04-11T22:13:32Z
 
 [[revisions]]
-page = "es/gxe9nero_en_espaxf1ol"
+page = "es/género_en_español"
 urn = "sha384:hkbjVByFltuFjJaanKlLZghuAZxLtBshFDBfmqWYcxPB3RZPJlLo9e_dCkhi_upH"
 author_ip = "69.115.216.77"
 log_message = "made #11 a full sentence."
@@ -20685,7 +20685,7 @@ log_message = "replaced English target language elements with Spanish ones."
 timestamp = 2013-04-18T18:14:34Z
 
 [[revisions]]
-page = "es/prxe1ctica_pronombre"
+page = "es/práctica_pronombre"
 urn = "sha384:p9qIBvp5no2fw6qJW3I9icgoTnG3kzO2s807MAAvUsiIY71rJ15Q26IKNlYFSEuo"
 author_ip = "69.115.216.77"
 log_message = "built for LLT WikiBook ElementarySpanish/Meeting_people/Lesson_3"
@@ -20739,66 +20739,66 @@ log_message = "added title and writing/illustration credits from cover as text e
 timestamp = 2013-04-25T16:03:52Z
 
 [[revisions]]
-page = "es/Introducciones_bxe1sicas"
+page = "es/Introducciones_básicas"
 urn = "sha384:VaeRIrseb7pjtCM9T2Zj_Cg21AfKWvWvrnJoA6eqb7DFh3EbpwcfUmHXPnOueWLp"
 author_ip = "69.115.216.77"
 log_message = "imported dialogue from https://en.wikibooks.org/wiki/ElementarySpanish/Meeting_people/Lesson_1#Colloquial_dialogue"
 timestamp = 2013-04-25T18:13:20Z
 
 [[revisions]]
-page = "es/Introducciones_bxe1sicas"
+page = "es/Introducciones_básicas"
 urn = "sha384:XL0kRD6RoSk-bdHVXYk-vUcT7uUoBTxn4427HfvtMO6Ns59hiHxfVdiSxtgnLTGE"
 author_ip = "69.115.216.77"
 log_message = "added introduction for the lesson and context for the dialogue"
 timestamp = 2013-04-25T18:16:45Z
 
 [[revisions]]
-page = "es/Introducciones_bxe1sicas"
+page = "es/Introducciones_básicas"
 urn = "sha384:M81U17IlEDvBeXJpt7QjgHcud5MUeMzykHTieB7fU7Tr2D_7JYyaqVuN_BYDdXWz"
 author_ip = "69.115.216.77"
-log_message = "expanded and explained all of Raxfal 's first line."
+log_message = "expanded and explained all of Raúl 's first line."
 timestamp = 2013-04-25T18:36:17Z
 
 [[revisions]]
-page = "es/Introducciones_bxe1sicas"
+page = "es/Introducciones_básicas"
 urn = "sha384:6DBNR25Pxfm2Q-d5VlogHsU4JTuv3ye8Th0WHb2QYaxTdYDA8VnMlhPPNlNTP5rY"
 author_ip = "69.115.216.77"
-log_message = "modified instruction for repetition to have students use their own name instead of Raxfal's "
+log_message = "modified instruction for repetition to have students use their own name instead of Raúl's "
 timestamp = 2013-04-25T18:37:52Z
 
 [[revisions]]
-page = "es/Introducciones_bxe1sicas"
+page = "es/Introducciones_básicas"
 urn = "sha384:p0pr-dvCbq1tZ-ExwCFu2u6WwwapJuNtb_BQ8nEyFCoqvBLJ8Vgv-MlAKIZd7aWk"
 author_ip = "69.115.216.77"
 log_message = "introduced with audio"
 timestamp = 2013-04-25T20:52:27Z
 
 [[revisions]]
-page = "es/Introducciones_bxe1sicas"
+page = "es/Introducciones_básicas"
 urn = "sha384:AiFAJFyU_UFZACluWfVMBzDRNm2HyFzVr-k5GbpvQ61M7LUcsOkoy7W7JU849xH3"
 author_ip = "69.115.216.77"
 timestamp = 2013-04-25T21:17:21Z
 
 [[revisions]]
-page = "es/Introducciones_bxe1sicas"
+page = "es/Introducciones_básicas"
 urn = "sha384:upgDWC2pxc6Oo5Xfk9wdwY6Cc183eI-SoLJdO7SYeEAtxM2bQxLpmpxnvxeMfqX-"
 author_ip = "98.116.28.212"
 timestamp = 2013-05-10T18:39:25Z
 
 [[revisions]]
-page = "es/Introducciones_bxe1sicas"
+page = "es/Introducciones_básicas"
 urn = "sha384:gI-RP9wOPGwHT7vLiBjmEiE52mdWreHXhPK8xZE5aGaxNTL1-JSoncRYAs-DcPHy"
 author_ip = "173.77.204.79"
 timestamp = 2013-05-14T04:44:59Z
 
 [[revisions]]
-page = "es/Introducciones_bxe1sicas"
+page = "es/Introducciones_básicas"
 urn = "sha384:jo-jFDeO0r-RmRBeSjdT6t2e7FFCkm2yjZS0HDPdyhUewy7Sf2MpA6pa19QIn4wQ"
 author_ip = "173.77.204.79"
 timestamp = 2013-05-14T04:57:55Z
 
 [[revisions]]
-page = "es/Introducciones_bxe1sicas"
+page = "es/Introducciones_básicas"
 urn = "sha384:vDex5Vg9VPWAF4Uenl0E0f1V0kFk1QLJAeRECYVEfy95todVJsD0v2EwcGjUpzVY"
 author_ip = "173.77.204.79"
 timestamp = 2013-05-17T16:06:13Z
@@ -22140,7 +22140,7 @@ author = "katyauchter"
 timestamp = 2014-02-05T17:00:12Z
 
 [[revisions]]
-page = "ar/\u0627\u0644\u062f\u0631\u0648\u0633"
+page = "ar/الدروس"
 urn = "sha384:VFTpiKFG7CQAIb1OXMsVOftQzkKp-iys7pzZaC4_bikxvrXcTyQcPuXRLpNauhXj"
 author_ip = "105.208.139.18"
 timestamp = 2014-02-08T17:32:38Z
@@ -24614,73 +24614,73 @@ author = "wed23"
 timestamp = 2015-12-07T18:19:46Z
 
 [[revisions]]
-page = "sv/Klxe4der"
+page = "sv/Kläder"
 urn = "sha384:pVhsbbWpL655968uFV-YdUjY7SQmLA1PP4arIAI8xY2tBU78FcT9IOplMyHQVLrP"
 author_ip = "128.59.77.170"
 timestamp = 2016-01-19T19:19:20Z
 
 [[revisions]]
-page = "sv/Klxe4der"
+page = "sv/Kläder"
 urn = "sha384:PPUgWRzp6xdc6BULHZRLnFJHVyO5Nn6wU8IRluazBx6cAiyzFDLqA2anX9x7j_5C"
 author_ip = "128.59.77.170"
 timestamp = 2016-01-19T19:44:00Z
 
 [[revisions]]
-page = "sv/Klxe4der"
+page = "sv/Kläder"
 urn = "sha384:2feQMF1BLVwOIGrG4el0SRPdBAGhifLZIyk-5_0TsSW08Ejmi-JpkjLm5q3-ap7H"
 author_ip = "128.59.77.170"
 timestamp = 2016-01-19T20:03:24Z
 
 [[revisions]]
-page = "sv/Klxe4der"
+page = "sv/Kläder"
 urn = "sha384:o87dskIzCBjTS17BkFjBxyMSwudB-0Vqx08_oLtcTOqBO-OhyoTadJ0mXJEWaVEL"
 author_ip = "128.59.77.170"
 timestamp = 2016-01-19T20:10:48Z
 
 [[revisions]]
-page = "sv/Klxe4der"
+page = "sv/Kläder"
 urn = "sha384:5lK51qhCNrhyxI5TGFJYqU4mjyfabHl1vpYQZ-3vns6zuBU8GM8RaJ5NuV_wyc8l"
 author_ip = "128.59.77.170"
 timestamp = 2016-01-19T20:17:18Z
 
 [[revisions]]
-page = "sv/Klxe4der"
+page = "sv/Kläder"
 urn = "sha384:_HsZY1aKY-khIWnda0DYE9YP9fMW4WqiR2Cf2ebGCSOWy_jGFRu6po21LN5tOsHp"
 author_ip = "128.59.77.170"
 timestamp = 2016-01-19T20:18:44Z
 
 [[revisions]]
-page = "sv/Klxe4der"
+page = "sv/Kläder"
 urn = "sha384:DaOT8cOkJZHCZG8Zu31fvJgBhgmKy7B7aeDBkeyATVGmA_xS6XN-t7PQLU_v6y52"
 author_ip = "128.59.77.170"
 timestamp = 2016-01-19T20:19:41Z
 
 [[revisions]]
-page = "sv/Klxe4der"
+page = "sv/Kläder"
 urn = "sha384:SIC3Fdofc9LHrAdQFASPi6VF6qByMKDrFmF-04sIKjITrvEXYGbyiFSM6rCLPQwi"
 author_ip = "128.59.77.170"
 timestamp = 2016-01-19T20:21:40Z
 
 [[revisions]]
-page = "sv/Klxe4der"
+page = "sv/Kläder"
 urn = "sha384:GBWvgFwpL2NJkYdl8GDJPPTMPgmNAT64SdHKcJeeCSLttKQCvYWRgvkYJJDtQUT6"
 author_ip = "128.59.77.170"
 timestamp = 2016-01-19T20:23:03Z
 
 [[revisions]]
-page = "sv/Klxe4der"
+page = "sv/Kläder"
 urn = "sha384:vm8zCrN-QiUt31fXlZPobCvrvtb1HtzOTP64IOwPnmSzDoL9YNqVPEx80auJuQXX"
 author_ip = "128.59.77.170"
 timestamp = 2016-01-19T20:23:32Z
 
 [[revisions]]
-page = "sv/Klxe4der"
+page = "sv/Kläder"
 urn = "sha384:Y7j5QXmrcJcBUpj2hGNCsSQqVNNkQRyLRrb5IsgXgRBIOKOQRkQaByWXx1q2eoXO"
 author_ip = "128.59.77.170"
 timestamp = 2016-01-19T20:25:47Z
 
 [[revisions]]
-page = "sv/Klxe4der"
+page = "sv/Kläder"
 urn = "sha384:Ivvbij4Ljw5c-AykmcYw-jnytY1hozrFkeXdPwKK-D5RCTFFO4LceGuVzri2G4oW"
 author_ip = "128.59.77.170"
 timestamp = 2016-01-19T20:32:23Z
@@ -24759,19 +24759,19 @@ log_message = "Mimi"
 timestamp = 2016-01-24T21:43:02Z
 
 [[revisions]]
-page = "user/wed23/Belgixeb"
+page = "user/wed23/België"
 urn = "sha384:LxbFSK6hg_JkJPQbKfTOcf9-_Ze9rDsKH47CXc3Mups1iKlNaMZbGtw4edwWO_Gx"
 author = "wed23"
 timestamp = 2016-01-26T19:58:49Z
 
 [[revisions]]
-page = "nl/Belgixeb"
+page = "nl/België"
 urn = "sha384:LxbFSK6hg_JkJPQbKfTOcf9-_Ze9rDsKH47CXc3Mups1iKlNaMZbGtw4edwWO_Gx"
 author = "wed23"
 timestamp = 2016-01-26T19:59:54Z
 
 [[revisions]]
-page = "sv/Klxe4der"
+page = "sv/Kläder"
 urn = "sha384:rdP0C8yhOO1jamstA4TxhONmgDnhp0h6ydF73MpeZwMo6lFzzG1vVyBjzyhobfRa"
 author_ip = "128.59.76.180"
 timestamp = 2016-01-26T20:11:13Z
@@ -24783,92 +24783,92 @@ author_ip = "128.59.76.180"
 timestamp = 2016-01-26T20:11:23Z
 
 [[revisions]]
-page = "nl/Belgixeb"
+page = "nl/België"
 urn = "sha384:7Fdgp9NoFdQBt3rpsc3Xh0KCmjYJECQKPz2BalStJ0MAhkzXT204-3fuilQU48Kt"
 author = "wed23"
 timestamp = 2016-01-28T20:43:12Z
 
 [[revisions]]
-page = "nl/Belgixeb"
+page = "nl/België"
 urn = "sha384:s-Ncdaz8nt2ZvvZoNZyNlnIaF3L7jfI0n2xJDSTNWWLyQ6evguZ5EdMr8rmlTL_K"
 author = "wed23"
 timestamp = 2016-01-28T20:53:40Z
 
 [[revisions]]
-page = "nl/Belgixeb"
+page = "nl/België"
 urn = "sha384:XNP6iD6v7wf1reowSfQ_i82W4eaR8DP9gk-U-ARn1LAL0Qr27_9wf0Vy8HQABkZJ"
 author = "wed23"
 timestamp = 2016-01-28T20:54:32Z
 
 [[revisions]]
-page = "nl/Belgixeb"
+page = "nl/België"
 urn = "sha384:L2Wq1uJ7M_SAdj_S0uAhfwnhZlaV6qFD4m7c452S6oxyW-7J0KiCYOwlnb93QYiK"
 author = "wed23"
 timestamp = 2016-01-28T21:00:54Z
 
 [[revisions]]
-page = "nl/Belgixeb"
+page = "nl/België"
 urn = "sha384:JzOcFGCeGm8cRojDl1EXSz8-5DTrURMBEemob7FgOW8Wtfjy_lL91AKFqW483vKm"
 author = "wed23"
 timestamp = 2016-01-30T18:08:27Z
 
 [[revisions]]
-page = "nl/Belgixeb"
+page = "nl/België"
 urn = "sha384:J-Tw-7EcU_TCbhGnWkQFP7de42aIwL0ybRUlDKh1ITMlkdWzDZq8WXPE67Dq0G-R"
 author = "wed23"
 timestamp = 2016-01-30T18:11:57Z
 
 [[revisions]]
-page = "nl/Belgixeb"
+page = "nl/België"
 urn = "sha384:zHTvs7qsUlkxWv31iINIKbaBh3aQ9bKVfFPBJ-PwDm30rnFex6xqXyy4q-17MkhZ"
 author = "wed23"
 timestamp = 2016-01-30T18:18:41Z
 
 [[revisions]]
-page = "nl/Belgixeb"
+page = "nl/België"
 urn = "sha384:TijzokWsfExW-VmmUz8OGxF3rNbD201v6XHZMoXRKowugpKo7DL4qIiXbhVxZGUJ"
 author = "wed23"
 timestamp = 2016-01-30T20:14:39Z
 
 [[revisions]]
-page = "nl/Belgixeb"
+page = "nl/België"
 urn = "sha384:umwscqE4yk2Mmc_UQKCRnryCiETFfATBC59ehTS3PURVhB35AyJxPrR1u0NBG5rd"
 author = "wed23"
 timestamp = 2016-01-31T15:26:06Z
 
 [[revisions]]
-page = "nl/Belgixeb"
+page = "nl/België"
 urn = "sha384:As0RrLHV4eFFr-YzY88W2-JnLA6rL4iRn3uF6eFUuyRFN5gCcwiQItT0nXWz4DCf"
 author = "wed23"
 timestamp = 2016-01-31T23:14:57Z
 
 [[revisions]]
-page = "nl/Belgixeb"
+page = "nl/België"
 urn = "sha384:44nHkazTFmUA-nAvYQghfXIaVEbyju6JSBTdLNDlE3Ur0CS0xc8zioiIsysDxWcv"
 author = "wed23"
 timestamp = 2016-01-31T23:17:46Z
 
 [[revisions]]
-page = "nl/Belgixeb"
+page = "nl/België"
 urn = "sha384:P0MY877Jxz-p8kLCLxTNskcM_p-anqUyAe3gLli1WoW-RUEXdeuDeEojwqiDiuZd"
 author_ip = "128.59.76.180"
 log_message = "Added extra column for question audio"
 timestamp = 2016-02-01T18:18:32Z
 
 [[revisions]]
-page = "nl/Belgixeb"
+page = "nl/België"
 urn = "sha384:1y06GU4r3P7GKhMLZK2mepoaKZ9MYyAjWhg4SWn40s40kv5B0pjHKZSiVfzvScfU"
 author = "wed23"
 timestamp = 2016-02-02T20:25:11Z
 
 [[revisions]]
-page = "nl/Belgixeb"
+page = "nl/België"
 urn = "sha384:ce6RccK_PG_ORnJs_kNc58OgghGKl7Enaz9XGKUCglZZ3zvNrw7eAhq4FpRF9b-T"
 author = "wed23"
 timestamp = 2016-02-02T20:26:25Z
 
 [[revisions]]
-page = "nl/Belgixeb"
+page = "nl/België"
 urn = "sha384:wU9vEMWnXkxC8mEeq6iEABu-kCH-y-bCCS-1mhpytQMdfbRV0H3-XrH6cBjxKxrE"
 author = "wed23"
 timestamp = 2016-02-02T20:30:28Z
@@ -24880,7 +24880,7 @@ author_ip = "85.226.145.13"
 timestamp = 2016-02-21T21:20:12Z
 
 [[revisions]]
-page = "sv/Rxf6relseverb"
+page = "sv/Rörelseverb"
 urn = "sha384:xhpXLiK3Q2RiXewUsUHBCASV2wmrvL7Zx8PAWplYl0KzrjR83ry48JQIIF-m_UbT"
 author_ip = "85.226.145.13"
 timestamp = 2016-02-21T21:22:17Z
@@ -24892,7 +24892,7 @@ author_ip = "85.226.145.13"
 timestamp = 2016-02-21T21:24:32Z
 
 [[revisions]]
-page = "fr/Lexe7ons"
+page = "fr/Leçons"
 urn = "sha384:ASXp5oH95M1KNptTvGh_SvPLbzdOzzCuh8qwFxa72CkB1TCPxechCfYSNc3NvMsG"
 author_ip = "69.50.183.111"
 timestamp = 2016-03-07T15:46:09Z
@@ -24917,26 +24917,26 @@ log_message = "restoring"
 timestamp = 2016-04-12T16:32:53Z
 
 [[revisions]]
-page = "nl/Belgixeb"
+page = "nl/België"
 urn = "sha384:HmEdBdcvqny3Yo3bKmJJC-iVtUvkSNtQIvP_Dip8RbBmPHdQk8fNMhohohrO3WRb"
 author_ip = "173.77.0.61"
 log_message = "Changed the order of the cells"
 timestamp = 2016-04-17T17:03:41Z
 
 [[revisions]]
-page = "nl/Belgixeb"
+page = "nl/België"
 urn = "sha384:zDAlW5SAbi_DX7w_dk2ohkju0t4Lwltudu3VNAjsH7hjyazVl30szic8llHECtIs"
 author_ip = "173.77.0.61"
 timestamp = 2016-04-17T17:05:38Z
 
 [[revisions]]
-page = "nl/Belgixeb"
+page = "nl/België"
 urn = "sha384:5TXhPMr8VN967wVrYL4tLDblNc4sea1Wm83Howf8d-wmUsEd1gQh5k7yEEkUxaYZ"
 author_ip = "173.77.0.61"
 timestamp = 2016-04-17T17:06:50Z
 
 [[revisions]]
-page = "nl/Belgixeb"
+page = "nl/België"
 urn = "sha384:5TXhPMr8VN967wVrYL4tLDblNc4sea1Wm83Howf8d-wmUsEd1gQh5k7yEEkUxaYZ"
 author_ip = "173.77.0.61"
 timestamp = 2016-04-17T17:07:43Z
@@ -24948,7 +24948,7 @@ author = "ian"
 timestamp = 2016-04-18T17:52:56Z
 
 [[revisions]]
-page = "user/mmekren_wikiotics/Giri\u015f"
+page = "user/mmekren_wikiotics/Giriş"
 urn = "sha384:2FOgUEcJ2Us8oyzBodAXVYapbcevL5HPuBe4Kkdu3phxSNDtycb0rlYdroAVslo-"
 author = "mmekren_wikiotics"
 timestamp = 2016-04-25T14:20:28Z
@@ -24997,7 +24997,7 @@ author = "sophia"
 timestamp = 2016-06-24T14:02:12Z
 
 [[revisions]]
-page = "user/sophia/HAFTANIN_GxdcNLER\u0130"
+page = "user/sophia/HAFTANIN_GÜNLERİ"
 urn = "sha384:EkhSuGqwKdINpjERgb2UnM8VchKBaO9_wwErjS7lw3qmzcg5nNJ9-z9-c-UPxHpt"
 author = "sophia"
 log_message = "SDT1-Konu 2"
@@ -25062,75 +25062,75 @@ author = "sophia"
 timestamp = 2016-06-24T18:07:27Z
 
 [[revisions]]
-page = "user/sophia/NERDES\u0130N?"
+page = "user/sophia/NERDESİN?"
 urn = "sha384:ViZBynmn5Ocj-PsoVpzDsGPTdUSNgUB2jRHJqrasEQnQXGWe92D97UYQGqLGdMDT"
 author = "sophia"
 log_message = "SDT1-Konu3"
 timestamp = 2016-06-24T18:26:06Z
 
 [[revisions]]
-page = "user/sophia/NERDES\u0130N?"
+page = "user/sophia/NERDESİN?"
 urn = "sha384:iAgDQt2oN95jbcZUob2i-SFjHNGIoX8fIS5R180HzlqVspSEpUzpyddit1FQpdu4"
 author = "sophia"
 timestamp = 2016-06-24T19:02:31Z
 
 [[revisions]]
-page = "user/sophia/NERDES\u0130N?"
+page = "user/sophia/NERDESİN?"
 urn = "sha384:iAgDQt2oN95jbcZUob2i-SFjHNGIoX8fIS5R180HzlqVspSEpUzpyddit1FQpdu4"
 author = "sophia"
 log_message = "SDT1-Konu3"
 timestamp = 2016-06-24T19:03:32Z
 
 [[revisions]]
-page = "user/sophia/EV\u0130M\u0130Z-ODALAR"
+page = "user/sophia/EVİMİZ-ODALAR"
 urn = "sha384:gSpLeyHLuxsIHFF5T1qusF61MAkIKnSD3NKD4GTXUv-XA2co-U-XsbUJh0aWt8NT"
 author = "sophia"
 log_message = "SDT1-Konu4"
 timestamp = 2016-06-24T19:11:17Z
 
 [[revisions]]
-page = "user/sophia/EV\u0130M\u0130Z-ODALAR"
+page = "user/sophia/EVİMİZ-ODALAR"
 urn = "sha384:vGJ2hU8z24E6KnAGPMS6KJr-q4E43NHOZDA71kpJSXndQHXsA_Gt3G5tz2v-P9q_"
 author = "sophia"
 timestamp = 2016-06-24T19:23:45Z
 
 [[revisions]]
-page = "user/sophia/EV\u0130M\u0130Z-E\u015eYALAR"
+page = "user/sophia/EVİMİZ-EŞYALAR"
 urn = "sha384:aVId1jlw-4U4Q-lr06iNjPMv0Q7dCUHN0OXoKI5YCnIhUb7KDCmu9_CXYrP8mKxI"
 author = "sophia"
 log_message = "SDT1-Konu4"
 timestamp = 2016-06-24T19:30:04Z
 
 [[revisions]]
-page = "user/sophia/A\u0130LE"
+page = "user/sophia/AİLE"
 urn = "sha384:Zkuu87efk1QcmIypZTqsz7Fi_c0cGrKkqJfXnb1_AR4eUG842mkwllD02hUuHNW-"
 author = "sophia"
 log_message = "SDT1-Konu5"
 timestamp = 2016-06-29T14:39:12Z
 
 [[revisions]]
-page = "user/sophia/A\u0130LE"
+page = "user/sophia/AİLE"
 urn = "sha384:zwWFn47sT9JyybJGO_pa_F63C2Gyb6KbhTD9TS58Toq9P0My92PZRqCivZck3ypm"
 author = "sophia"
 log_message = "SDT1-Konu5"
 timestamp = 2016-06-29T14:46:01Z
 
 [[revisions]]
-page = "user/sophia/A\u0130LE"
+page = "user/sophia/AİLE"
 urn = "sha384:V930GSQQIu4OgrzTRfwdJobK2MEI4mLObdHl8glZ_FAr-VPerrUeTYICFwEJf4pM"
 author = "sophia"
 log_message = "SDT1-Konu5"
 timestamp = 2016-06-29T14:47:22Z
 
 [[revisions]]
-page = "user/sophia/A\u0130LE"
+page = "user/sophia/AİLE"
 urn = "sha384:4az7OneSeCb_UgvVjuZdA4QCU3Tq0Q4JX6aEaFYQA1cosWNoLqLDXUqyrE8ReqZs"
 author = "sophia"
 log_message = "SDT1-Konu5"
 timestamp = 2016-06-29T14:47:55Z
 
 [[revisions]]
-page = "user/sophia/A\u0130LE-SDT1-Konu5"
+page = "user/sophia/AİLE-SDT1-Konu5"
 urn = "sha384:4az7OneSeCb_UgvVjuZdA4QCU3Tq0Q4JX6aEaFYQA1cosWNoLqLDXUqyrE8ReqZs"
 author = "sophia"
 timestamp = 2016-06-29T14:49:54Z
@@ -25142,113 +25142,113 @@ author = "sophia"
 timestamp = 2016-06-29T14:52:08Z
 
 [[revisions]]
-page = "user/sophia/ANNEM_BAHxc7EDE"
+page = "user/sophia/ANNEM_BAHÇEDE"
 urn = "sha384:KCZffaRPhO2NF090ThH9QUsMNFfsD-eS-Q8RD0rlX8fPCHu-U49mwQRzLRrn_ZB0"
 author = "sophia"
 log_message = "SDT1-Konu5"
 timestamp = 2016-06-29T21:01:08Z
 
 [[revisions]]
-page = "user/sophia/ANNEM_BAHxc7EDE-SDT1-Konu5"
+page = "user/sophia/ANNEM_BAHÇEDE-SDT1-Konu5"
 urn = "sha384:KCZffaRPhO2NF090ThH9QUsMNFfsD-eS-Q8RD0rlX8fPCHu-U49mwQRzLRrn_ZB0"
 author = "sophia"
 timestamp = 2016-06-29T21:02:35Z
 
 [[revisions]]
-page = "user/sophia/Vxfccudumuz-SDT1-Konu6"
+page = "user/sophia/Vücudumuz-SDT1-Konu6"
 urn = "sha384:st3GWV6OuUu8czLAJTNE6UmebMK21iNEtTtr-H4bK7P1THmIfnyswGI6qwE6Y97X"
 author = "sophia"
 log_message = "SDT1-Konu 6"
 timestamp = 2016-06-30T15:31:48Z
 
 [[revisions]]
-page = "user/sophia/Vxfccudumuz-SDT1-Konu6"
+page = "user/sophia/Vücudumuz-SDT1-Konu6"
 urn = "sha384:ijDnRehpHDRsnS4FYw8EMx9yz1iQcUZGWTaFhcchPW7gS6if1QmaBW5c56CmEHY1"
 author = "sophia"
 timestamp = 2016-06-30T15:32:38Z
 
 [[revisions]]
-page = "user/sophia/Vxfccudumuz-SDT1-Konu6"
+page = "user/sophia/Vücudumuz-SDT1-Konu6"
 urn = "sha384:EHXxfruNefs87SOFt8VCcDBLQP1i6rzA62IimidV4H1MZpF3n9JyZLzr3yTnDgve"
 author = "sophia"
 timestamp = 2016-06-30T15:34:17Z
 
 [[revisions]]
-page = "user/sophia/Vxfccudumuz-SDT1-Konu6"
+page = "user/sophia/Vücudumuz-SDT1-Konu6"
 urn = "sha384:mhhk_Jno9T5lkaT6TzkKhA3rhHY5sX553CaaScEw0Ilxjlbj3sYe3eT_DtVnXqvq"
 author = "sophia"
 timestamp = 2016-06-30T15:35:19Z
 
 [[revisions]]
-page = "user/sophia/Vxfccudumuz-SDT1-Konu6"
+page = "user/sophia/Vücudumuz-SDT1-Konu6"
 urn = "sha384:dzyDfNGNL10-vWtw41VnE1NKjh67Ge3MY_g0h9fh4YQR9qsYctFBRH6e8-rOv6oS"
 author = "sophia"
 timestamp = 2016-06-30T15:37:57Z
 
 [[revisions]]
-page = "user/sophia/Vxfccudumuz-SDT1-Konu6"
+page = "user/sophia/Vücudumuz-SDT1-Konu6"
 urn = "sha384:UeVDhzGP8aGOYpyVJOi5QaC8ziLJtbhLlXRJVbLs2G48uERD7DxSJM0HpmLjruve"
 author = "sophia"
 timestamp = 2016-06-30T15:41:55Z
 
 [[revisions]]
-page = "user/sophia/ELB\u0130SELER-SDT1-Konu7"
+page = "user/sophia/ELBİSELER-SDT1-Konu7"
 urn = "sha384:7qVy1w7-_Q4_r5CRzY5Z48HjOBpLzS19xQIbhoYL2nxe66-lWi-5Yl5Hhcyv3ivv"
 author = "sophia"
 log_message = "SDT1-Konu7"
 timestamp = 2016-06-30T16:19:01Z
 
 [[revisions]]
-page = "user/sophia/DO\u011eUM_GxdcNxdc-SDT1-Konu8"
+page = "user/sophia/DOĞUM_GÜNÜ-SDT1-Konu8"
 urn = "sha384:kguE5fe4bpXQMvVKdr06RYC31H_KZW9Mn7C1zyDt_FROx2iCLPU0ZlwUr940VP_d"
 author = "sophia"
 log_message = "SDT1-Konu8"
 timestamp = 2016-06-30T16:42:44Z
 
 [[revisions]]
-page = "user/sophia/DO\u011eUM_GxdcNxdc-SDT1-Konu8"
+page = "user/sophia/DOĞUM_GÜNÜ-SDT1-Konu8"
 urn = "sha384:JpJ5C2a8TjIYHcdgJ4wK3ThMTQW9XozyKreFH8dTashvi5IvsBfssMJliCDPCBgQ"
 author = "sophia"
 timestamp = 2016-06-30T16:43:52Z
 
 [[revisions]]
-page = "user/sophia/ELB\u0130SELER-SDT1-Konu7"
+page = "user/sophia/ELBİSELER-SDT1-Konu7"
 urn = "sha384:WES5MJ6pGdGI8IrmiKbsUZYaL19NYonUdZYrRthWoVaBkZxp4WioP5effLlzWArJ"
 author = "sophia"
 timestamp = 2016-06-30T16:48:28Z
 
 [[revisions]]
-page = "user/sophia/Vxfccudumuz-SDT1-Konu6"
+page = "user/sophia/Vücudumuz-SDT1-Konu6"
 urn = "sha384:4vy587-1z6yBRS6KiZMpovru0Mo_nb5BXyltixpgKUaUJHGi36iA0tA9d6nPur68"
 author = "sophia"
 timestamp = 2016-06-30T16:51:14Z
 
 [[revisions]]
-page = "user/sophia/ANNEM_BAHxc7EDE-SDT1-Konu5"
+page = "user/sophia/ANNEM_BAHÇEDE-SDT1-Konu5"
 urn = "sha384:pKbg-hcPM9v9vVcotl_5tW3eFLhaOSEJbCD--LUDcJy-CnHJgAkYV290W2M2v0Zc"
 author = "sophia"
 timestamp = 2016-06-30T16:51:46Z
 
 [[revisions]]
-page = "user/sophia/ANNEM_BAHxc7EDE"
+page = "user/sophia/ANNEM_BAHÇEDE"
 urn = "sha384:n1D4dXJPhHVCzo46qeJa2yN88bU7kQ2otSodfYMjw0zl5aRWdyryY_XZ4P6FCiQ6"
 author = "sophia"
 timestamp = 2016-06-30T16:52:10Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:ty-Y4jPwNZSZplgVk4ehgKH-Gua-ilHGak4MU9BR7AP5CslU-vLI-gallcuPY1JH"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T18:22:40Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:VjulotabDNex6YUHyLm6HpQUJ4if45TmQGVJBmnESfUJsq2JFN7YAgMKjiigraWh"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T18:28:40Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:sp3s2Cgz5J9I8Kr_REfgGfjlRfT-j5esjFIWiHDfZ_CaKC54Q5WowVIVanTRotjF"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T18:36:40Z
@@ -25261,7 +25261,7 @@ log_message = "re-saving with dutch tags"
 timestamp = 2016-07-08T18:46:22Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:li0t_6MkIF0kVgBtCvDFo5nCQvtmyOtcP4unUOENZIF_RgrjI0_9OyLgE7ZlOFdy"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T18:54:00Z
@@ -25273,607 +25273,607 @@ author = "ian"
 timestamp = 2016-07-08T18:55:18Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:XdVdl9xEJib65twcpPfsc-i0Cksd0st6QkbVJA46ymToLdiZ6voGQI7bVVYusUcu"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T18:55:26Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:pQrVVah01shRzrkSmPI3oRGdiazAvkxtm3vWzVrpULny5SimzIM12mTe7P5iTH88"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T18:56:43Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:-_0wakk1SDYtZR5pr7fhkoTyQa2RqfswOhuAciyghhSsW8ZDIVXy5T0kIl7t1Y3r"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T18:59:30Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:s2LNm_uLnxOpwBiTS5lFvhz-aZhXr4af4Jn3LWy7pbG5ZZBt6z7eBJ_aZCgIhDw0"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T19:09:31Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:qahtrGcLJhTJf_hR9SwKNvxP3yl8gdq3_FUvPvlqFov24lRfUNsrJ82Yf7_U8i3C"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T19:33:30Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:QSINnt7LggALuOuMSvr4TVXdPyS0OyqcleVpkY0j-XI8GxCDfQdFwANwiFJFFtgL"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T19:41:45Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:yOwzGidreJaBXRGzyxLIPLgMlqRSLy2fz-YwZ3n5GAY6KepacdMo37Pg0ZAsdt6g"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T19:59:01Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:YGfO0BkZeeyTHJGISNm4VNmABXXO60Dss3fveHsbt8-o88G-TJMpnuBJNsAHSWJK"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T19:59:59Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:oUil3MI81Uz8ZSYI-1cefIOlWK43ncVxVwdSae6Y1xpr0YAN1ggf5YGsyaasGoX-"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T20:07:47Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:LcNtJoml8w1_9lau2Fmxvxgw7dfl7Zkap0YkAFfBXeOT380Tv47pSCtgNhikWkZB"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T20:09:21Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:jCgXgK-E01Vtl6MIH-RMjGIick-PlIvBaFxIp9JgWegRmyC0kqmbW0EMLqYFPsiT"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T20:14:47Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:ugjKtCpTe8JHVKWBmQOZjoDR1CBNCxIqsOsBZjupS1vJJTgHgd_UbdX57dq8nrSL"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T20:21:33Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:mEN9u24M8gRWwwtTazKvpQb9UCD60bpm5NvR0FZyoy7mPY1XYRELpNai3I33NJdH"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T20:32:13Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:IMAL2MJ5dxNWiYRy7rxyR7R3pd4wA85gPN5I2_JgNIMEX6lB-SQqyk0pbXs77oMu"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T20:36:27Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:YLgrTA6gmzKllm48Du7l5cpfHrPhCC5ZtjAmXIql3-lioJk4Ebb7qOFuqSMgfQ8E"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T20:38:12Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:vf04FO9CXT5PnMpGrxEiPKe5g9y5skAi-zJULiHgA4nTZtj_n5FcMa4lfoFIJYFo"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T20:44:33Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:kxgtfqERPshv4n4Z7MdHwc3kGF10XoIFS69nKhD7xaexsrnHDdJE2Rl62h3R2WWd"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T20:57:58Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:42AKv_I1osYqFGLW8RrtKYCTEMMHyJxZQKMyB2wAo1XwJhTixoSgslfJvz-Zl10O"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T21:04:25Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:EidPZSXdloHpmr7tTl0l7VAKncrDXZy5-9-u139oIca5CZYahDe9udelurLLY4wL"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T21:05:15Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:0KAdUS_kekxSBxmzfwdQf6QKhKtRz4tDMwpgt4mCPCzdsKbNG81Q8bbtnvU1g9z2"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T21:05:57Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:4SLnECiz471uit-MrNtFhWiVhT_vIDvlZzJLVIUk5A4TG29_iVh2aXw1Et8RtfL6"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T21:09:46Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:wGT1r-lbQ3yRLFvUPmMq8IhebCexZ5KvBE8dBwT6jw8f1hLrMvDQlq6Phoz_oiCU"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T21:10:56Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:3eXR9CdsFTc_4Pu6PlzxUOcpmd3oTlSzHL4ZS_4iONcwc3Ai0rZHuS_pkOsEG3qv"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T21:12:17Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:fJV5Se6x0aNCWEWpzM8TDRRP8b_x3Gdeqbulw8yCJGKiR6JCcSRVXIzlQk2lGDsM"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T21:13:29Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:PqGH3M1p6rdtfGXfb32bSaLOqojJ4y-5Rd6d84vm_stHI_aWDtZinEp50iE6_wOB"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T21:16:24Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:jPO5zhDnWALB2BnNBx8a56lhSF4yRClrGfapzxqy65uGTFb1SlYFU_mxGR5xed-h"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T21:17:44Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:Yl7CeGWrCUEoSsxj4X9Y3wCUyQXG4JD34T1cQPZZe0dM0Mq1ESZSNo64uPFpQxEL"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T21:20:01Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:MC51DuoJ2wfAJ92ZLL2mlffFMdhT_GQl1ww7517fBFd92ELaEwUkmfAXVveyIrHL"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T21:25:08Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:yavnw4vM65ri2hxutccOVvAkcm1NK0gnfsKFBF3ekJ1x1Sf74san3zJLQH6SjxNN"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T21:27:26Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:5VgS1bPMZhA_sR9JazZkZ1lCjDfjJ3nFvt5l-tGr0daguGfyn8O-djwFF2mbGPE0"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T21:27:53Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:Afyy-Vv5uh-x0mW5gX572KBpJhLeypxr-gH2lVz_lPADiFt0_ce25XvWpBjr3Iri"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T21:35:02Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:_SyZp04DTjRBaOgK_WjwAQZF-7SsIowTYzE4vs-_ja3ncZRGgEJHPcz6pBHPeNbw"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T21:40:29Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:OifN22iOVLMPDKxayYAHyMSmQ90LLxAsB1aLXgmAhrEc6oafeIFubCZyKsSdqlp6"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T21:44:50Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:tAzIVtT9jf1hu9ZF6d0cvaXzU_AMkFwg0jDCBb4gNTIp2Vhx8W0e9aem852IErH2"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T21:52:28Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:2JW-LEWe8mIGEscs9oFp1ie_jc-vUkCMNL3_FtkuzIADkfi9SIRQBoYM6ETkPo0S"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T21:56:46Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:ZlGpEWJlNccpnqpjG2rAZ79-NV9d_9kF8HKZXWnvkCFJ6dNc7N27BL75zZU4lZ44"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T21:58:51Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:Dy_8NjsL8yC5RFoaujcCwBdTluKm36uYvuqlJ7M9c7jDaSL0KwRfsc8-d95MyYhB"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T22:05:04Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:Pxys9R0CwzkNyHw7nATFln-upJhJHV5OQHcpzyuNBZk6_i6TZp8tXmyn6BsEbYTL"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T22:06:55Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:CO3-Q8_Jl5FyTqIf8hJZ7gRflXVv5nM_OcEm9n_OTHwC0aay3o_4KkNYXrEPOIli"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T22:09:08Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:t26NolUXafqeghcRrZ_fRpfrCjmmzDm_duPfP-y6RY3f1qMTLsKQ5l30njNnfcKQ"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T22:12:20Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:RiyqSfACzTBevPpIVxdUdgD7pW9KeNJLuh1sTBByC1BORnKHL7KTl9Jhw0je8P-0"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T22:14:03Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:8Ck7lZxBYg5UTRVVshJPnoknfxGnKEAP7JXeuF0e6iNba7bo06r8rO_RHBlfTmcR"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T22:15:36Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:z9y27-JuHoc1Ys-u8kLxxPLpsLdXVc6hRZwyIDmZqeEYHl_YSHECKCrZZEUcNtw9"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T22:17:36Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:My9-Vo7QrUgespgNYOeJHWrBY05YDxERscbWF6Tyoeo5ZS3yQCh9J3K6dxP3_cxh"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T22:18:37Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:UBhBx59WpN34vdRBuCBkij9uKWy7pHlDojL7H6S2_U-5tzBO1QjS4tZEfnLSWtWN"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T22:19:24Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:ufyx7-DV4B2pXpr8-gtc6T_YcvoGY-C5cxmliBbJfuEsRTAjAuHWtvUC4dBPQf1A"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T22:20:27Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:GQRoeTbLVvz1VSxEZ0EqEeMurqs8g_Ux-ws0q3LnVELTOxtcQGZiCpETNnPqFeOg"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T22:21:24Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:7Wyoy6cg2gqMoWjpWVxdzgxWQBGgD32QSCX0I_I-dFSmCEzQTKFITDoXpQbMuP0F"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T22:22:55Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:73U1pRiYrZVaUzfJO9ZZb_z3Q1h7T95DwoBRQJ8BkJzeEHiHKEi6qNEqvI2wxlY3"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T22:23:50Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:bYxdJd7NXwBsefZNJm9na6ymCDyqgG3m1GdAyn_POb4NFSRHk28Cu8HLtqvzeCEC"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T22:25:20Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:tDV4qE8nOJ7_Wcpy1-ospt-LewIFHaLpntRckq2W2lKWaFIvxeEePHYxVTDIOyXe"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T22:29:25Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:2xPHAHdpRpq7Yaa_6ItARAOPeekDpMlaEn-0FH411zYafUGZBwIAn6OesniiPhDS"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T22:30:39Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:_NZzGBQn3ZhZPpYBj5iM-_PvdPL_UEH64M9mgG39xnRcVl5r5TU_svXJHCBok1SC"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T22:32:19Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:-_395vP0OOxKrN4-rtRg4ADh3XV6FAy94_zNOUYARXhyOnAiH7ys8MT5RMF6d9tt"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T22:33:01Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:lDVRTa_hd0W2DgzlWLX4eLAuJ7R0GATIaOD8USvINZqQk-yrx-hqFSPolnmaexQG"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T22:33:29Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:P8k_7adExcqAq-cbr-6LLZ7UPJePKpjEXy3SiHrOEiS69x8j3dsAyQmuNUTobhAp"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T22:33:51Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:1PDiAlLs4Bj-n1c4eoDp0XJafE67vDsLQJCKgM5q9JOuh1iMwHSPw4pzs2T7BFeB"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T22:35:01Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:gEhEV5sXFtIRs_WPGMu6afDR7bKnzXbl4Ifl5UJKAQh03Y87TysDPBEd1_dyB3zl"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T22:37:16Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:Jg548G88cw5x3dwSbe2u6ec5S3BELIaIGfDwO4I7Xk0b3GVC_MKo6WVuRSklYlxg"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T22:37:50Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:8HD7M1d76oC9KJF67j_aDjHXPhmATW4FA6TCqaXn005Oa4rj0H4pUyvMTtqoIsMA"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T22:40:20Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:PfZsLpPvhRyPOzive9Fx1XzNqIzihvYe8yBnqzsmpDjcj_ltW8kuMgZ2hGoJQDf2"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T22:42:41Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:QSYiHXgVe4ZAAkQLncrYtATy-k068_7kIwX5JIY9f60k6xyUsVp8QXvNlevaWhJs"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T22:44:14Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:jiyA7F6gDom7Ql3QpZ4qPeFN4VgV10S4LigcOMN6QcKk5sJSRWLXMj7IoDINSirQ"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T22:46:43Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:e0WlImMPhfAYbik--AJHyGiVr7OfG1V13_lEbEb6_Fhecc6dldbht63suGh-ZxtT"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T22:47:43Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:A0uSxaEbYfoWm09g1kdHWSu3ZSa8QDmfgSYb6mleE4l_v9srAzMUigbNxKW9pCFL"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T22:54:05Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:EBcjqNGswrOtEeRcZhYEXwrv6d9msvugHlAiqIqlV9Bv6QgJ2Qr2V9_CZsmUQeDr"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T22:56:35Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:e41IJOYcy4aQhKT0JFrSYBOjMXlWQVLetVVT6pufe2lcKuF6g5QzfspHlK-6zBKj"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T22:59:18Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:0_nmC6Ho0xhMtN9-bwM6H-g0VaRb8-13ZJcrUXTuO6kzzqoFBdz32OMixhu8L4oc"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T23:01:38Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:GXVnoUrVOY-UL3ZQYHwzd131TnFmMU9ZBvPm4jtJ2qE-BaO7fI28z2bRNY213tP4"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T23:05:20Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:deyMCVGSdcMM_NKJAxhk7pnfcwLvBigZHojCcjHEvF495ruHzTq1XJ1oCkTB8bTP"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T23:11:23Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:93QsOAw4QYp4n25vafDSQOxmojBPBczV8qV-0pwws3GqvemMmmc1AEsrMyR4VOHp"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T23:23:06Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:28PeujmspX36UQqs3c39pSsj20dFi6fQm325AYL_2-zUL2ugPmCIzEPL_uIiaLeI"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T23:24:42Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:orNswZaPLLIwaD-u9HYOudChG3onUQKcoZNKaPNPcFn2baNrvbeuJIaHw7hY7WPD"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T23:36:27Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:sThaK1K2o_1oEDSE7OI296aLFqtUC6OfxXAzeEUBKaBmO8I8QmV4d9tHGLTtlrU3"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T23:38:41Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:cg07yvybi78Tx9GYjFwQG86-iP_TakHZ-Y8j9b4cnw52uVBUQe0c2KmXanxvwVA-"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T23:45:11Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:EegPKZ6rCgPNYI7_VRgFNLFVk7GZV4TJJzJn-hffsU44_BR84dpVGVraJX8-2waf"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T23:46:46Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:koF6mQT8QQY8w_ePtoDlCc8m37UoLBZWXxjwnqy2DX5HleJtMpSCp8hjZmVO3HSs"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T23:49:20Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:1ITRZhGcOfl91AMRlPKQUaAdgAtxJns9IgAESQhSpcJj3muSn3Hvg_P4USgvA91Q"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T23:54:39Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:88FGO6k1Dk0u9PJbu_rHsUuZ3eGeDDB_x5lK_pJXavnH6tny-Jflir7hZhN-DQJn"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T23:56:24Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:OANLnBmzJtu7yistOovK5aj7jDR3rcT4ubx3uof6qOxIPbZDnKxamexmGj67fbe8"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-08T23:59:56Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:L09_GYGO8PdIgiOQbx3vyGSEu3t1Vf9b3SYwIm1poo2dutr-h3CJhV0AAxcGDsEE"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-09T00:02:08Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:KsMMDCKgRGj4CeSXgCR1pdA9AVxVk_zzATh-6OuKrBplySQOhrohdwgmyzglKtJd"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-09T00:06:51Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:uHc93rMA7ZtBWMmrs2tmGW7vMLFG6wSziwKYXkJit4jxdWyJZo9ZjAJizT_1qyMh"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-09T00:10:32Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:W6YIRb_07OtL5J7lm2fjYkaaWTLXUKFAaYt8GpdFwzZJ9dh4RUovjt-n-Mtawv8f"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-09T00:14:29Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:vZbIANcglSgZ_HAdgoZE7oaRjrY3GEnOfDHjFEuEIfapcA3vImMrb6KjJOF3yW0A"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-09T00:22:27Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:W6hw3ULWHiAWYk0sNn1mi8arBk8cgjgQa4p7sFsxk5clyOB5R9AYildH9TUumnOk"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-09T00:25:52Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:YNul9aWWWPjfZiXEDFBQOGjB32g9e_zUGe-0DjfqmmzqZtPEMJ6uaO7DlgdHYaD3"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-09T00:28:14Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:mmf5GCdYskkJPNqaaFME4b6cELw4S2KDrQssdkPr3W793MZ2Fg24-JuH6alRXIVh"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-09T00:31:03Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:her6qUcPUYFQR2rTpjgOku7yu8ofUGSzEMkEbwGcvmj23puW-VlM-Mt0WfK3g6xD"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-09T00:33:54Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:5CpYgM-dqY5K5ciaaK-8Fa88JhkPwkoXPNNUHU7EdaosqawJl-AU9a8EOFZQw-_C"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-09T00:36:09Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:bGVtnJGve6HqnWKx8ZQCgGFQxfGTT9LEsPCVaWr1zOPNYtkHq0sZ66Hfq8Ki6qTi"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-09T00:39:47Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:NussPGIARPGe0xxD0s4eESbhSrSBTqIub2vPs6gXJrEI8gUkM6WN5gi38DA98igd"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-09T00:43:58Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:cp1LINnxzFVAldLftgNrrntTwlHSCYDVi6DWOh5s8qE5ua_4QgN7vffB-wZXyaDm"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-09T00:45:15Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:mRWSINTGkSVPaybwA1zYKOC0D1CT6f_4xAhnWgmaI4C94bqysO7u20lhiYrwXwbT"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-09T00:48:46Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:jOZuV-bvX89E2v3q_O6rv5SalRl5WN-CehMMqr5i1GlhRBjM1w9AYmnPGaG2aVZ6"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-09T00:51:11Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:q7ZnjV_ZxI6DAUMsrFl9j2wM-LUvkqF-QsC75rX7-q_Gw_DLeTL93ufzM-NhxmeC"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-09T00:54:58Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:1mHFWduyBgHrSegThxxBnPt6wxLiThW3jELJMw0jh00UfuZ01bZvEX6cZVjU1Fsu"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-09T00:56:03Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:1mHFWduyBgHrSegThxxBnPt6wxLiThW3jELJMw0jh00UfuZ01bZvEX6cZVjU1Fsu"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-09T00:56:39Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:1mHFWduyBgHrSegThxxBnPt6wxLiThW3jELJMw0jh00UfuZ01bZvEX6cZVjU1Fsu"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-09T00:57:42Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:1mHFWduyBgHrSegThxxBnPt6wxLiThW3jELJMw0jh00UfuZ01bZvEX6cZVjU1Fsu"
 author_ip = "128.59.77.170"
 timestamp = 2016-07-09T00:58:08Z
 
 [[revisions]]
-page = "sv/I_mataffxe4ren"
+page = "sv/I_mataffären"
 urn = "sha384:7rKdM9QHHU0ZIH2vRQKIX20N5LeRMZvrzXFSABb-Bgil7SRo5cdUxpZEnPoz07EN"
 author_ip = "24.193.48.145"
 log_message = "switched target language tag"
@@ -26016,65 +26016,65 @@ timestamp = 2016-09-08T15:15:00Z
 page = "tr/Climate_*_iklim"
 urn = "sha384:LDaP5zzJLY5s1QqRZ6BOPLmsCv5FEKlj1_VTkrspTJg-dHgeOOsDrnc2ALoce8Ot"
 author_ip = "71.40.125.10"
-log_message = "ac\u0131l\u0131m"
+log_message = "acılım"
 timestamp = 2016-10-08T20:29:47Z
 
 [[revisions]]
-page = "sv/Pxe5_kafxe9et"
+page = "sv/På_kaféet"
 urn = "sha384:mPXdBEKAMbJVEtcONYdNiNhlHXsUR65iiHI39GNFGbTLyYGta5DXW4EENP0qqTou"
 author_ip = "160.39.15.99"
 timestamp = 2016-11-11T20:31:27Z
 
 [[revisions]]
-page = "sv/Pxe5_kafxe9et"
+page = "sv/På_kaféet"
 urn = "sha384:zkwyifaKxGPYn2f59VooDOs7hUaF6kvfeXiyFHjXzUwwIFyQ2DVkvSvbB1SuWT14"
 author_ip = "160.39.15.99"
 timestamp = 2016-11-11T20:33:44Z
 
 [[revisions]]
-page = "sv/Pxe5_kafxe9et"
+page = "sv/På_kaféet"
 urn = "sha384:0lsNAvRIv67mDZvucs11Q0vhkfJSAfyZ9c_NZpXstxfU7LTn1tdrMk3vn1K3WHoC"
 author_ip = "160.39.15.99"
 timestamp = 2016-11-11T20:36:03Z
 
 [[revisions]]
-page = "sv/Pxe5_kafxe9et"
+page = "sv/På_kaféet"
 urn = "sha384:IvdHVqrA7adNzVilzq3-o4jqrdQLE_pDLAKapN4wVpQF2Tsexih8H2JG4xFGNI7L"
 author_ip = "160.39.15.99"
 timestamp = 2016-11-11T20:37:42Z
 
 [[revisions]]
-page = "sv/Pxe5_kafxe9et"
+page = "sv/På_kaféet"
 urn = "sha384:0OpzcfZb2Z0NBGL2X5BGOjxKoZsNY-0HI1dP5XGEHB0H7PeQhWEXV6rZYZaMqQCT"
 author_ip = "160.39.15.99"
 timestamp = 2016-11-11T20:40:19Z
 
 [[revisions]]
-page = "sv/Pxe5_kafxe9et"
+page = "sv/På_kaféet"
 urn = "sha384:44x8zHF4dc2TO8jNbDwDD-EaphH6X-eM_tF-tAPhvhiEuhiD5f-mZzMpwKpnaTEa"
 author_ip = "160.39.15.99"
 timestamp = 2016-11-11T20:40:52Z
 
 [[revisions]]
-page = "sv/Pxe5_kafxe9et"
+page = "sv/På_kaféet"
 urn = "sha384:0MFIst3sHsVm0Hw7M_4wnDtnQCxidICK7YDwIncbmuSSg1pO3NZuQ1UI14sUlPea"
 author_ip = "160.39.15.99"
 timestamp = 2016-11-11T20:43:30Z
 
 [[revisions]]
-page = "sv/Pxe5_kafxe9et"
+page = "sv/På_kaféet"
 urn = "sha384:I6RCsMtdDvpODUVf6ZOKeooZY1aRMjOG9sfPWBPtcDCQa5sZb77bI-dz2qf42j8-"
 author_ip = "160.39.15.99"
 timestamp = 2016-11-11T20:44:28Z
 
 [[revisions]]
-page = "sv/Pxe5_kafxe9et"
+page = "sv/På_kaféet"
 urn = "sha384:2pdGA4cl7xpjdkyEp9CRlNXh98Z5YxINKWX6vKC-e_yUZLKU6mKxrrLtAXjUwrIs"
 author_ip = "160.39.15.99"
 timestamp = 2016-11-11T20:48:45Z
 
 [[revisions]]
-page = "sv/Pxe5_kafxe9et"
+page = "sv/På_kaféet"
 urn = "sha384:hNPgzQ9Z0NHgvmw3OsuWTx6yFao3MZgQFEfvYcpMU-D7IOHCLXDmJ6Qo7CeFPTzM"
 author_ip = "160.39.15.99"
 timestamp = 2016-11-11T20:48:59Z

@@ -1,0 +1,23 @@
+#!/usr/bin/env python3
+
+# We aren't getting proper utf-8 from python2, so we run this fixup script under python3
+
+import json, toml
+from collections import OrderedDict
+
+input = json.load(open('revision-history.json'))
+input2 = toml.load(open('revision-history.toml'))
+revisions = []
+for rev, rev2 in zip(input['revisions'], input2['revisions']):
+    d = OrderedDict()
+    d['page'] = rev['page']
+    d['urn'] = rev['urn']
+    if 'author' in rev:
+        d['author'] = rev['author']
+    else:
+        d['author_ip'] = rev['author_ip']
+    if 'log_message' in rev:
+        d['log_message'] = rev['log_message']
+    d['timestamp'] = rev2['timestamp']
+    revisions.append(d)
+print(toml.dumps({'revisions': revisions}))
