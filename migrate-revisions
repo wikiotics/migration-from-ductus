@@ -1,0 +1,120 @@
+#!/usr/bin/env python
+
+# TODO: just get the lessons working at all
+
+# TODO: get the loop below configurable to look at just a few things, without git involved.  look at those things, get them working well.  do this work on the master branch.
+
+# TODO: make sure my timestamps are appropriately timezone aware
+
+# TODO: make sure languageCode is appropriately used in the new website somehow -- maybe as an attribute on content div
+
+# TODO: per-language _index.md pages that contain only the title
+
+# TODO: breadcrumbs and navigation
+
+# TODO: prune the lesson json/toml - start with a few representative lessons
+
+# TODO: I think I can do even better with wikitext by disabling macros on the main site and then scraping its html.
+
+# TODO: ipfs for media hashing: ipfs add -Qr directory
+
+# FIXME: use python3 for this?
+
+import datetime
+import toml, json
+import requests
+import pygit2
+import subprocess
+import re
+import pathlib
+import os
+import os.path
+from collections import OrderedDict
+
+repo_path = '/home/garrison/Personal/wikiotics-static'
+repo = pygit2.Repository(repo_path)
+
+repo.checkout('refs/heads/master')
+branch_name = '{}-migration'.format(datetime.datetime.now().strftime('%Y%m%d-%H%M%S'))
+branch = repo.branches.local.create(branch_name, repo[repo.head.target])
+branch_ref = 'refs/heads/' + branch_name
+repo.checkout(branch_ref)
+
+def handle_wikitext(front_matter, js):
+    # NOTE: We just ignore creole and html5 macros
+    # https://github.com/wikiotics/ductus/blob/master/ductus/modules/textwiki/templatetags/textwiki.py
+    text = js['blob']['text']
+    markup_language = js['blob']['markup_language']
+    if 'natural_language' in js['blob']:
+        natural_language = js['blob']['natural_language']
+        front_matter['languageCode'] = natural_language
+    if markup_language == 'creole-1.0':
+        content = subprocess.Popen('pandoc -f creole -t commonmark',stdin=subprocess.PIPE,stdout=subprocess.PIPE, shell=True).communicate(text.encode('utf-8'))[0].decode('utf-8')
+        # see ductus rev 5fc694545542e345ea64f860d823caf719a280eb for the following
+        content = re.sub(r'\]\(enWP:', '](http://en.wikipedia.org/wiki/', content)
+        content = re.sub(r'\]\(DjangoBug:', '](http://code.djangoproject.com/ticket/', content)
+        content = re.sub(r'\]\(UbuntuBug:', '](https://bugs.launchpad.net/ubuntu/+bug/', content)
+        content = re.sub(r'\]\((\w\w):', '](/\\1/', content)
+        content = re.sub(r'\]\((\w\w\w):', '](/\\1/', content)
+        content = re.sub(r'\]\((user):', '](/\\1/', content)
+        content = re.sub(r'\]\((group):', '](/\\1/', content)
+        content = re.sub(r'\]\((\w)', '](/en/\\1', content)
+    elif markup_language == 'ductus-html5':
+        content = subprocess.Popen('pandoc -f html -t commonmark',stdin=subprocess.PIPE,stdout=subprocess.PIPE, shell=True).communicate(text.encode('utf-8'))[0].decode('utf-8')
+    else:
+        raise Exception
+    return content
+
+def handle_picture(front_matter, js):
+    # https://github.com/wikiotics/ductus/blob/master/ductus/modules/picture/ductmodels.py
+    for k, v in js.items():
+        front_matter[k] = v
+
+def handle_flashcard_deck(front_matter, js):
+    # https://github.com/wikiotics/ductus/blob/master/ductus/modules/flashcards/ductmodels.py
+    for k, v in js.items():
+        front_matter[k] = v
+
+handler_dict = {
+    '{http://wikiotics.org/ns/2009/wikitext}wikitext': handle_wikitext,
+    '{http://wikiotics.org/ns/2009/picture}picture': handle_picture,
+    '{http://wikiotics.org/ns/2011/flashcards}flashcard_deck': handle_flashcard_deck,
+}
+
+for i, rev in enumerate(toml.load("revision-history.toml")['revisions']):
+    print(i, '\t', end='')
+    output_filename = 'content/{}.md'.format(rev['page'])
+    output_path = os.path.join(repo_path, output_filename)
+    pathlib.Path(os.path.dirname(output_path)).mkdir(parents=True, exist_ok=True)
+    index = repo.index
+    if rev['urn']:
+        url = 'https://wikiotics.org/urn/{}?view=resource_json'.format(rev['urn'].replace(':', '/'))
+        print(url)
+        js = json.loads(requests.get(url).text)
+        front_matter = OrderedDict()
+        front_matter['title'] = rev['page'].rpartition('/')[2]
+        content = handler_dict[js['fqn']](front_matter, js)
+        #print(js)
+        with open(output_path, 'w') as f:
+            f.write("+++\n{}+++\n".format(toml.dumps(front_matter)))
+            if content:
+                f.write('\n')
+                f.write(content)
+        # https://www.pygit2.org/recipes/git-add-reset.html
+        index.add(output_filename)
+    else:
+        if not os.path.isfile(output_path):
+            print("skipping deletion - page does not exist: {}".format(rev['page']))
+            continue
+        print("Removing {}".format(rev['page']))
+        index.remove(output_filename)
+        os.remove(output_path)
+    index.write()
+    # https://www.pygit2.org/recipes/git-cherry-pick.html
+    # https://stackoverflow.com/questions/29469649/create-a-commit-using-pygit2
+    author_email = '{}@wikiotics.org'.format(rev['author'].replace('@', '_') if 'author' in rev else rev['author_ip'])
+    author = pygit2.Signature(author_email, author_email, time=int(rev['timestamp'].timestamp()))
+    committer = pygit2.Signature('Jim Garrison', 'garrison@wikiotics.org')
+    tree = index.write_tree()
+    log_message = rev.get('log_message', '')
+    repo.create_commit(branch_ref, author, committer, log_message, tree, [repo.head.target])
