@@ -3,6 +3,7 @@
 import datetime
 import toml, json
 import requests
+from pyquery import PyQuery
 import pygit2
 import subprocess
 import re
@@ -20,37 +21,26 @@ branch = repo.branches.local.create(branch_name, repo[repo.head.target])
 branch_ref = 'refs/heads/' + branch_name
 repo.checkout(branch_ref)
 
-def handle_wikitext(front_matter, js):
-    # NOTE: We just ignore creole and html5 macros
+def handle_wikitext(front_matter, js, urn):
+    # DONE on main site: disable macros; get old interwiki links working from ductus rev 5fc694545542e345ea64f860d823caf719a280eb
     # https://github.com/wikiotics/ductus/blob/master/ductus/modules/textwiki/templatetags/textwiki.py
-    text = js['blob']['text']
-    markup_language = js['blob']['markup_language']
+    url = 'https://wikiotics.org/urn/{}'.format(urn.replace(':', '/'))
+    d = PyQuery(requests.get(url).text)
+    text = d('.ductus_textwiki_content').html()
+    if text is None:
+        text = ''
     if 'natural_language' in js['blob']:
         natural_language = js['blob']['natural_language']
         front_matter['languageCode'] = natural_language
-    if markup_language == 'creole-1.0':
-        content = subprocess.Popen('pandoc -f creole -t commonmark',stdin=subprocess.PIPE,stdout=subprocess.PIPE, shell=True).communicate(text.encode('utf-8'))[0].decode('utf-8')
-        # see ductus rev 5fc694545542e345ea64f860d823caf719a280eb for the following
-        content = re.sub(r'\]\(enWP:', '](http://en.wikipedia.org/wiki/', content)
-        content = re.sub(r'\]\(DjangoBug:', '](http://code.djangoproject.com/ticket/', content)
-        content = re.sub(r'\]\(UbuntuBug:', '](https://bugs.launchpad.net/ubuntu/+bug/', content)
-        content = re.sub(r'\]\((\w\w):', '](/\\1/', content)
-        content = re.sub(r'\]\((\w\w\w):', '](/\\1/', content)
-        content = re.sub(r'\]\((user):', '](/\\1/', content)
-        content = re.sub(r'\]\((group):', '](/\\1/', content)
-        content = re.sub(r'\]\((\w)', '](/en/\\1', content)
-    elif markup_language == 'ductus-html5':
-        content = subprocess.Popen('pandoc -f html -t commonmark',stdin=subprocess.PIPE,stdout=subprocess.PIPE, shell=True).communicate(text.encode('utf-8'))[0].decode('utf-8')
-    else:
-        raise Exception
+    content = subprocess.Popen('pandoc -f html -t commonmark',stdin=subprocess.PIPE,stdout=subprocess.PIPE, shell=True).communicate(text.encode('utf-8'))[0].decode('utf-8')
     return content
 
-def handle_picture(front_matter, js):
+def handle_picture(front_matter, js, urn):
     # https://github.com/wikiotics/ductus/blob/master/ductus/modules/picture/ductmodels.py
     for k, v in js.items():
         front_matter[k] = v
 
-def handle_flashcard_deck(front_matter, js):
+def handle_flashcard_deck(front_matter, js, urn):
     # https://github.com/wikiotics/ductus/blob/master/ductus/modules/flashcards/ductmodels.py
     for k, v in js.items():
         front_matter[k] = v
@@ -73,7 +63,7 @@ for i, rev in enumerate(toml.load("revision-history.toml")['revisions']):
         js = json.loads(requests.get(url).text)
         front_matter = OrderedDict()
         front_matter['title'] = rev['page'].rpartition('/')[2]
-        content = handler_dict[js['fqn']](front_matter, js)
+        content = handler_dict[js['fqn']](front_matter, js, rev['urn'])
         #print(js)
         with open(output_path, 'w') as f:
             f.write("+++\n{}+++\n".format(toml.dumps(front_matter)))
