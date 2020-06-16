@@ -21,11 +21,24 @@ branch = repo.branches.local.create(branch_name, repo[repo.head.target])
 branch_ref = 'refs/heads/' + branch_name
 repo.checkout(branch_ref)
 
+cache_dir = '/home/garrison/Personal/wikiotics-migration/.cache'
+pathlib.Path(cache_dir).mkdir(parents=True, exist_ok=True)
+
+"currently assumes utf-8 text"
+def cache_http_get(url, filename):
+    filename = os.path.join(cache_dir, filename)
+    if not os.path.isfile(filename):
+        s = requests.get(url).text
+        with open(filename, 'w') as f:
+            f.write(s)
+    with open(filename) as f:
+        return f.read()
+
 def handle_wikitext(front_matter, js, urn):
     # DONE on main site: disable macros; get old interwiki links working from ductus rev 5fc694545542e345ea64f860d823caf719a280eb
     # https://github.com/wikiotics/ductus/blob/master/ductus/modules/textwiki/templatetags/textwiki.py
     url = 'https://wikiotics.org/urn/{}'.format(urn.replace(':', '/'))
-    d = PyQuery(requests.get(url).text)
+    d = PyQuery(cache_http_get(url, '{}.html'.format(urn)))
     text = d('.ductus_textwiki_content').html()
     if text is None:
         text = ''
@@ -60,7 +73,7 @@ for i, rev in enumerate(toml.load("revision-history.toml")['revisions']):
     if rev['urn']:
         url = 'https://wikiotics.org/urn/{}?view=resource_json'.format(rev['urn'].replace(':', '/'))
         print(url)
-        js = json.loads(requests.get(url).text)
+        js = json.loads(cache_http_get(url, '{}.xml'.format(rev['urn'])))
         front_matter = OrderedDict()
         front_matter['title'] = rev['page'].rpartition('/')[2]
         content = handler_dict[js['fqn']](front_matter, js, rev['urn'])
