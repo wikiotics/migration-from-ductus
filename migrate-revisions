@@ -48,14 +48,25 @@ def handle_wikitext(front_matter, js, urn):
     content = subprocess.Popen('pandoc -f html -t commonmark',stdin=subprocess.PIPE,stdout=subprocess.PIPE, shell=True).communicate(text.encode('utf-8'))[0].decode('utf-8')
     return content
 
+def fixup(obj):
+    if isinstance(obj, list):
+        return [fixup(a) for a in obj]
+    elif isinstance(obj, dict):
+        rv = OrderedDict()
+        for k in sorted(obj.keys()):
+            rv[k] = fixup(obj[k])
+        return rv
+    else:
+        return obj
+
 def handle_picture(front_matter, js, urn):
     # https://github.com/wikiotics/ductus/blob/master/ductus/modules/picture/ductmodels.py
-    for k, v in js.items():
+    for k, v in fixup(js).items():
         front_matter[k] = v
 
 def handle_flashcard_deck(front_matter, js, urn):
     # https://github.com/wikiotics/ductus/blob/master/ductus/modules/flashcards/ductmodels.py
-    for k, v in js.items():
+    for k, v in fixup(js).items():
         front_matter[k] = v
 
 handler_dict = {
