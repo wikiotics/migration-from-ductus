@@ -46,6 +46,10 @@ def handle_wikitext(front_matter, js, urn):
         natural_language = js['blob']['natural_language']
         front_matter['languageCode'] = natural_language
     content = subprocess.Popen('pandoc -f html -t commonmark',stdin=subprocess.PIPE,stdout=subprocess.PIPE, shell=True).communicate(text.encode('utf-8'))[0].decode('utf-8')
+    if content.startswith('# '):
+        first_line, _, content = content.partition('\n')
+        front_matter['title'] = first_line.partition('# ')[2].replace('\\!', '!')
+        content = content.lstrip('\n')
     return content
 
 def fixup(obj):
