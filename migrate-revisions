@@ -37,7 +37,7 @@ def cache_http_get(url, filename):
 def handle_wikitext(front_matter, js, urn):
     # DONE on main site: disable macros; get old interwiki links working from ductus rev 5fc694545542e345ea64f860d823caf719a280eb
     # https://github.com/wikiotics/ductus/blob/master/ductus/modules/textwiki/templatetags/textwiki.py
-    url = 'https://wikiotics.org/urn/{}'.format(urn.replace(':', '/'))
+    url = 'https://old.wikiotics.org/urn/{}'.format(urn.replace(':', '/'))
     d = PyQuery(cache_http_get(url, '{}.html'.format(urn)))
     text = d('.ductus_textwiki_content').html()
     if text is None:
@@ -86,7 +86,7 @@ for i, rev in enumerate(toml.load("revision-history.toml")['revisions']):
     pathlib.Path(os.path.dirname(output_path)).mkdir(parents=True, exist_ok=True)
     index = repo.index
     if rev['urn']:
-        url = 'https://wikiotics.org/urn/{}?view=resource_json'.format(rev['urn'].replace(':', '/'))
+        url = 'https://old.wikiotics.org/urn/{}?view=resource_json'.format(rev['urn'].replace(':', '/'))
         print(url)
         js = json.loads(cache_http_get(url, '{}.json'.format(rev['urn'])))
         front_matter = OrderedDict()
