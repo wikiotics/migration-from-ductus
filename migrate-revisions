@@ -63,20 +63,16 @@ def fixup(obj):
     else:
         return obj
 
-def handle_picture(front_matter, js, urn):
+def handle_lesson(front_matter, js, urn):
     # https://github.com/wikiotics/ductus/blob/master/ductus/modules/picture/ductmodels.py
-    for k, v in fixup(js).items():
-        front_matter[k] = v
-
-def handle_flashcard_deck(front_matter, js, urn):
     # https://github.com/wikiotics/ductus/blob/master/ductus/modules/flashcards/ductmodels.py
     for k, v in fixup(js).items():
         front_matter[k] = v
 
 handler_dict = {
     '{http://wikiotics.org/ns/2009/wikitext}wikitext': handle_wikitext,
-    '{http://wikiotics.org/ns/2009/picture}picture': handle_picture,
-    '{http://wikiotics.org/ns/2011/flashcards}flashcard_deck': handle_flashcard_deck,
+    '{http://wikiotics.org/ns/2009/picture}picture': handle_lesson,
+    '{http://wikiotics.org/ns/2011/flashcards}flashcard_deck': handle_lesson,
 }
 
 for i, rev in enumerate(toml.load("revision-history.toml")['revisions']):
