@@ -11,6 +11,7 @@ import pathlib
 import os
 import os.path
 from collections import OrderedDict
+from copy import copy, deepcopy
 
 repo_path = '/home/garrison/Personal/wikiotics-static'
 repo = pygit2.Repository(repo_path)
@@ -33,6 +34,8 @@ def cache_http_get(url, filename):
             f.write(s)
     with open(filename) as f:
         return f.read()
+
+contributors_dict = {}
 
 def handle_wikitext(front_matter, js, urn):
     # DONE on main site: disable macros; get old interwiki links working from ductus rev 5fc694545542e345ea64f860d823caf719a280eb
@@ -60,14 +63,33 @@ def fixup(obj):
     elif isinstance(obj, dict):
         rv = OrderedDict()
         for k in sorted(obj.keys()):
+            if k == 'parents':
+                continue
             rv[k] = fixup(obj[k])
         return rv
     else:
         return obj
 
+failed = []
+
 def handle_lesson(front_matter, js, urn):
     # https://github.com/wikiotics/ductus/blob/master/ductus/modules/picture/ductmodels.py
     # https://github.com/wikiotics/ductus/blob/master/ductus/modules/flashcards/ductmodels.py
+    js = copy(js)
+    # Deal with parents/contributors
+    contributors = set()
+    parents = js['common']['parents']
+    assert len(parents) in (0, 1)
+    for parent in parents:
+        try:
+            contributors.update(contributors_dict[parent])
+        except KeyError:
+            failed.append((parent, urn, front_matter['title']))
+        contributors.add(js['common']['author']['text'])
+    contributors = sorted(contributors)
+    contributors_dict['urn:' + urn] = contributors
+    js['contributors'] = contributors
+    # Fix up all remaining front matter
     for k, v in fixup(js).items():
         front_matter[k] = v
 
@@ -115,3 +137,7 @@ for i, rev in enumerate(toml.load("revision-history.toml")['revisions']):
     log_message = rev.get('log_message', '(No log message)')
     log_message += '\n\nAutomated import from Ductus\nurn:{}'.format(rev['urn'])
     repo.create_commit(branch_ref, author, committer, log_message, tree, [repo.head.target])
+
+print("Parents not found:")
+for f in failed:
+    print(f)
