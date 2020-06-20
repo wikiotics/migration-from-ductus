@@ -42,11 +42,14 @@ contributors_dict = {}
 def handle_wikitext(front_matter, js, urn):
     # DONE on main site: disable macros; get old interwiki links working from ductus rev 5fc694545542e345ea64f860d823caf719a280eb
     # https://github.com/wikiotics/ductus/blob/master/ductus/modules/textwiki/templatetags/textwiki.py
-    url = 'https://old.wikiotics.org/urn/{}'.format(urn.replace(':', '/'))
-    d = PyQuery(cache_http_get(url, '{}.html'.format(urn)))
-    text = d('.ductus_textwiki_content').html()
-    if text is None:
+    if not js['blob']['text']:
         text = ''
+    else:
+        url = 'https://old.wikiotics.org/urn/{}'.format(urn.replace(':', '/'))
+        d = PyQuery(cache_http_get(url, '{}.html'.format(urn)))
+        text = d('.ductus_textwiki_content').html()
+        if text is None:
+            text = ''
     if 'natural_language' in js['blob']:
         natural_language = js['blob']['natural_language']
         front_matter['languageCode'] = natural_language
