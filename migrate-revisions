@@ -29,7 +29,9 @@ pathlib.Path(cache_dir).mkdir(parents=True, exist_ok=True)
 def cache_http_get(url, filename):
     filename = os.path.join(cache_dir, filename)
     if not os.path.isfile(filename):
-        s = requests.get(url).text
+        r = requests.get(url)
+        r.raise_for_status()
+        s = r.text
         with open(filename, 'w') as f:
             f.write(s)
     with open(filename) as f:
