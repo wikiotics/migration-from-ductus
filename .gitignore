@@ -1,2 +1,3 @@
 users-with-email.toml
 .direnv
+.cache
