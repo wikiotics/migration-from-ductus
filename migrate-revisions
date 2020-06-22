@@ -66,6 +66,10 @@ def fixup(obj):
     if isinstance(obj, list):
         return [fixup(a) for a in obj]
     elif isinstance(obj, dict):
+        for name in ('array', 'value'):
+            if name in obj:
+                assert len(obj) == 1
+                return fixup(obj[name])
         rv = OrderedDict()
         for k in sorted(obj.keys()):
             if k == 'parents':
