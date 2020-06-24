@@ -141,7 +141,7 @@ for i, rev in enumerate(toml.load("revision-history.toml")['revisions']):
     # https://stackoverflow.com/questions/29469649/create-a-commit-using-pygit2
     author_email = '{}@wikiotics.org'.format(rev['author'].replace('@', '_') if 'author' in rev else rev['author_ip'])
     author = pygit2.Signature(author_email, author_email, time=int(rev['timestamp'].timestamp()))
-    committer = pygit2.Signature('Jim Garrison', 'garrison@wikiotics.org')
+    committer = pygit2.Signature(author_email, author_email)
     tree = index.write_tree()
     log_message = rev.get('log_message', '(No log message)')
     log_message += '\n\nAutomated import from Ductus\nurn:{}'.format(rev['urn'])
