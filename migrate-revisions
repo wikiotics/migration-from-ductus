@@ -208,10 +208,10 @@ for i, rev in enumerate(toml.load("revision-history.toml")['revisions']):
     # https://stackoverflow.com/questions/29469649/create-a-commit-using-pygit2
     author_email = '{}@wikiotics.org'.format(rev['author'].replace('@', '_') if 'author' in rev else rev['author_ip'])
     author = pygit2.Signature(author_email, author_email, time=int(rev['timestamp'].timestamp()))
-    committer = pygit2.Signature(author_email, author_email)
+    committer = pygit2.Signature("Automated migration from ductus", 'migration@wikiotics.org')
     tree = index.write_tree()
     log_message = rev.get('log_message', '(No log message)')
-    log_message += '\n\nAutomated import from Ductus\nurn:{}'.format(rev['urn'])
+    log_message += '\n\nAutomated import from Ductus\nhttps://github.com/wikiotics/migration-from-ductus\n\nurn:{}'.format(rev['urn']) # and link to migration repo
     repo.create_commit(branch_ref, author, committer, log_message, tree, [repo.head.target])
 
 print("Parents not found:")
