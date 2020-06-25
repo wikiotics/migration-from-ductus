@@ -62,7 +62,44 @@ def handle_wikitext(front_matter, js, urn):
         front_matter['tags'] = sorted([t['value'] for t in js['tags']['array']])
     return content
 
+def fixup_interaction(n):
+    if 'prompt' in n:
+        n['prompt'] = [int(a) for a in n['prompt'].split(',')]
+    for name in 'answer', 'audio', 'transcript':
+        if name in n:
+            n[name] = int(n[name])
+    return n
+
+fqn_dict = {
+    '{http://wikiotics.org/ns/2009/wikitext}wikitext': None,
+    '{http://wikiotics.org/ns/2011/flashcards}flashcard_deck': 'lesson',
+    '{http://wikiotics.org/ns/2011/flashcards}flashcard': None,
+    '{http://wikiotics.org/ns/2009/picture}picture': 'picture',
+    '{http://wikiotics.org/ns/2011/phrase}phrase': 'phrase',
+    '{http://wikiotics.org/ns/2010/audio}audio': 'audio',
+    # interactions
+    '{http://wikiotics.org/ns/2011/flashcards}audio_lesson_interaction': 'podcast',
+    '{http://wikiotics.org/ns/2011/flashcards}choice_interaction': 'choice',
+    '{http://wikiotics.org/ns/2011/flashcards}story_book_interaction': 'storybook',
+}
+
+def extract_side_resource(n):
+    resource = n['resource']
+    if resource is None:
+        return {'type': 'empty'}
+    if resource['fqn'] in ('{http://wikiotics.org/ns/2009/picture}picture', '{http://wikiotics.org/ns/2010/audio}audio'):
+        resource['blob_href'] = resource['blob']['href']
+        resource['mime_type'] = resource['blob']['mime_type']
+        del resource['blob']
+        resource['href'] = n['href']
+    else:
+        assert resource['fqn'] == '{http://wikiotics.org/ns/2011/phrase}phrase'
+        resource['text'] = resource['phrase']['text']
+        del resource['phrase']
+    return resource
+
 def fixup(obj):
+    assert not isinstance(obj, OrderedDict)
     if isinstance(obj, list):
         return [fixup(a) for a in obj]
     elif isinstance(obj, dict):
@@ -70,6 +107,36 @@ def fixup(obj):
             if name in obj:
                 assert len(obj) == 1
                 return fixup(obj[name])
+        if 'common' in obj:
+            del obj['common']
+        if 'headings' in obj:
+            obj['headings'] = [n['text'] for n in obj['headings']['array']]
+        if 'interactions' in obj:
+            obj['interactions'] = [fixup_interaction(n['resource']) for n in obj['interactions']['array']]
+        if 'credit' in obj:
+            d = {}
+            if 'title' in obj['credit']:
+                d['title'] = obj['credit']['title']['text']
+            if 'original_url' in obj['credit']:
+                d['original_url'] = obj['credit']['original_url']['href']
+            if 'author' in obj['credit']:
+                d['author'] = obj['credit']['author']['text']
+            if 'author_url' in obj['credit']:
+                d['author_url'] = obj['credit']['author_url']['href']
+            obj['credit'] = d
+        if 'cards' in obj:
+            obj['cards'] = [n['resource'] for n in obj['cards']['array']]
+        if 'sides' in obj:
+            obj['sides'] = [extract_side_resource(n) for n in obj['sides']['array']]
+            if 'headings' in obj:
+                assert len(obj['sides']) == len(obj['headings'])
+        if 'dividers' in obj:
+            obj['dividers'] = [int(a) for a in obj['dividers'].split(',')]
+        if 'fqn' in obj:
+            mytype = fqn_dict[obj['fqn']]
+            del obj['fqn']
+            if mytype is not None:
+                obj['type'] = mytype
         rv = OrderedDict()
         for k in sorted(obj.keys()):
             if k == 'parents':
