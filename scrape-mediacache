@@ -1,0 +1,105 @@
+#!/usr/bin/env python3
+
+import datetime
+import toml, json
+import requests
+from pyquery import PyQuery
+import pygit2
+import subprocess
+import re
+import pathlib
+import os
+import os.path
+from collections import OrderedDict
+from copy import copy, deepcopy
+from urllib.parse import urlparse
+
+cache_dir = '/home/garrison/Personal/wikiotics-migration/.cache'
+media_dir = '/home/garrison/Personal/wikiotics-migration'
+
+"currently assumes utf-8 text"
+def cache_http_get(url, filename):
+    filename = os.path.join(cache_dir, filename)
+    if not os.path.isfile(filename):
+        r = requests.get(url)
+        r.raise_for_status()
+        s = r.text
+        with open(filename, 'w') as f:
+            f.write(s)
+    with open(filename) as f:
+        return f.read()
+
+ductus_mime_to_ext = {"audio/webm": "webma", "audio/mp4": "m4a", "image/jpeg": "jpg", "audio/ogg": "oga", "image/png": "png"}
+ductus_mediacache_prefix = 'https://old.wikiotics.org/mediacache/'
+
+def resolve_mediacache_url(resource, mime_type=None, additional_args=None, blob_urn=None):
+    if blob_urn is None:
+        blob_urn = resource['resource']['blob']['href']
+    split_urn = blob_urn.split(':')
+    hash_type = split_urn[1];
+    digest = split_urn[2];
+    if additional_args:
+        dotstr = '.' + additional_args
+    else:
+        dotstr = ''
+    if not mime_type:
+        mime_type = resource['resource']['blob']['mime_type']
+    mime_ext = ductus_mime_to_ext[mime_type]
+    return ductus_mediacache_prefix + hash_type + '/' + digest + dotstr + '.' + mime_ext + '?' + resource['href']
+
+null_success = 0
+failed = 0
+fetch_success = 0
+
+def scrape(*args):
+    global null_success, failed, fetch_success
+    url = resolve_mediacache_url(*args)
+    o = urlparse(url)
+    filepath = os.path.join(media_dir, o.path[1:])
+    if os.path.isfile(filepath):
+        # We're done!
+        null_success += 1
+        return
+    pathlib.Path(os.path.dirname(filepath)).mkdir(parents=True, exist_ok=True)
+    r = requests.get(url)
+    try:
+        r.raise_for_status()
+    except Exception:
+        print(filepath)
+        failed += 1
+    else:
+        with open(filepath, 'wb') as f:
+            f.write(r.content)
+        fetch_success += 1
+
+allowed_thumbnail_sizes = [(250, 250), (100, 100), (50, 50)]
+conversions = {"audio/mp4": ["audio/ogg"], "audio/ogg": ["audio/mp4"]}
+
+def scrape_media(obj):
+    if isinstance(obj, list):
+        for a in obj:
+            scrape_media(a)
+    elif isinstance(obj, dict):
+        if 'resource' in obj and obj['resource'] is not None and 'blob' in obj['resource']:
+            scrape(obj)
+            mime_type = obj['resource']['blob']['mime_type']
+            if mime_type == 'image/jpeg':
+                for sx, sy in allowed_thumbnail_sizes:
+                    additional_args = '{}_{}'.format(sx, sy)
+                    if 'rotation' in obj['resource']:
+                        assert obj['resource']['rotation']
+                        additional_args += '_{}'.format(obj['resource']['rotation'])
+                    scrape(obj, mime_type, additional_args)
+            for mime_type in conversions.get(mime_type, []):
+                scrape(obj, mime_type)
+        else:
+            for v in obj.values():
+                scrape_media(v)
+
+for i, rev in enumerate(toml.load("revision-history.toml")['revisions']):
+    if rev['urn']:
+        url = 'https://old.wikiotics.org/urn/{}?view=resource_json'.format(rev['urn'].replace(':', '/'))
+        print(i, '\t', url)
+        js = json.loads(cache_http_get(url, '{}.json'.format(rev['urn'])))
+        scrape_media(js)
+        print(null_success, failed, fetch_success)
