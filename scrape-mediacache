@@ -65,7 +65,7 @@ def scrape(*args):
     try:
         r.raise_for_status()
     except Exception:
-        print(filepath)
+        print(url)
         failed += 1
     else:
         with open(filepath, 'wb') as f:
@@ -81,8 +81,10 @@ def scrape_media(obj):
             scrape_media(a)
     elif isinstance(obj, dict):
         if 'resource' in obj and obj['resource'] is not None and 'blob' in obj['resource']:
-            scrape(obj)
             mime_type = obj['resource']['blob']['mime_type']
+            if mime_type == 'image/png':
+                mime_type = 'image/jpeg'
+            scrape(obj, mime_type)
             if mime_type == 'image/jpeg':
                 for sx, sy in allowed_thumbnail_sizes:
                     additional_args = '{}_{}'.format(sx, sy)
