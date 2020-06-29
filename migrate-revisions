@@ -169,7 +169,7 @@ def handle_lesson(front_matter, js, urn):
             contributors.update(contributors_dict[parent])
         except KeyError:
             failed.append((parent, urn, front_matter['title']))
-        contributors.add(js['common']['author']['text'])
+    contributors.add(js['common']['author']['text'])
     contributors = sorted(contributors)
     contributors_dict['urn:' + urn] = contributors
     js['contributors'] = contributors
