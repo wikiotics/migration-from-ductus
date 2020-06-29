@@ -107,8 +107,6 @@ def fixup(obj):
             if name in obj:
                 assert len(obj) == 1
                 return fixup(obj[name])
-        if 'common' in obj:
-            del obj['common']
         if 'headings' in obj:
             obj['headings'] = [n['text'] for n in obj['headings']['array']]
         if 'interactions' in obj:
@@ -123,7 +121,17 @@ def fixup(obj):
                 d['author'] = obj['credit']['author']['text']
             if 'author_url' in obj['credit']:
                 d['author_url'] = obj['credit']['author_url']['href']
+            if 'common' in obj and 'licenses' in obj['common']:
+                licenses = [x['href'] for x in obj['common']['licenses']['array']]
+                assert len(licenses) == 1
+                d['license'] = licenses[0].replace('http:', 'https:')
+                del obj['common']
             obj['credit'] = d
+        if 'common' in obj:
+            if 'licenses' in obj['common']:
+                licenses = [x['href'] for x in obj['common']['licenses']['array']]
+                assert licenses == ['http://creativecommons.org/licenses/by-sa/3.0/']
+            del obj['common']
         if 'cards' in obj:
             obj['cards'] = [n['resource'] for n in obj['cards']['array']]
         if 'sides' in obj:
