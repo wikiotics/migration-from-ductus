@@ -175,6 +175,50 @@ handler_dict = {
     '{http://wikiotics.org/ns/2011/flashcards}flashcard_deck': handle_lesson,
 }
 
+lang = {
+    'af': 'Afrikaans',
+    'ar': 'Arabic',
+    'bg': 'Bulgarian',
+    'bo': 'Tibetan',
+    'bs': 'Bosnian',
+    'ca': 'Catalan',
+    'cs': 'Czech',
+    'de': 'German',
+    'el': 'Modern Greek',
+    'en': 'English',
+    'eo': 'Esperanto',
+    'es': 'Spanish',
+    'fa': 'Persian',
+    'ff': 'Fulah',
+    'fi': 'Finnish',
+    'fr': 'French',
+    'he': 'Hebrew',
+    'hi': 'Hindi',
+    'hu': 'Hungarian',
+    'is': 'Icelandic',
+    'it': 'Italian',
+    'ja': 'Japanese',
+    'km': 'Central Khmer',
+    'ko': 'Korean',
+    'mn': 'Mongolian',
+    'mr': 'Marathi',
+    'nl': 'Dutch',
+    'no': 'Norwegian',
+    'pa': 'Panjabi',
+    'pl': 'Polish',
+    'pot': 'Potawatomi',
+    'pt': 'Portuguese',
+    'ro': 'Romanian',
+    'ru': 'Russian',
+    'sk': 'Slovak',
+    'sv': 'Swedish',
+    'tr': 'Turkish',
+    'uk': 'Ukrainian',
+    'wo': 'Wolof',
+    'zh': 'Chinese',
+    'zsm': 'Standard Malay',
+}
+
 for i, rev in enumerate(toml.load("revision-history.toml")['revisions']):
     print(i, '\t', end='')
     output_filename = 'content/{}.md'.format(rev['page'])
@@ -188,7 +232,22 @@ for i, rev in enumerate(toml.load("revision-history.toml")['revisions']):
         front_matter = OrderedDict()
         front_matter['title'] = rev['page'].rpartition('/')[2].replace('_', ' ')
         content = handler_dict[js['fqn']](front_matter, js, rev['urn'])
-        #print(js)
+        if 'tags' in front_matter:
+            tags = front_matter['tags']
+            temp = []
+            while tags:
+                x = tags.pop()
+                if x.startswith('source-language:'):
+                    front_matter.setdefault('source languages', []).append(lang[x.partition(':')[2]])
+                elif x.startswith('target-language:'):
+                    front_matter.setdefault('target languages', []).append(lang[x.partition(':')[2]])
+                else:
+                    temp.append(x)
+            while temp:
+                tags.append(temp.pop())
+            tags.sort()
+            if not tags:
+                del front_matter['tags']
         with open(output_path, 'w') as f:
             f.write("+++\n{}+++\n".format(toml.dumps(front_matter)))
             if content:
