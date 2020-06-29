@@ -13,6 +13,7 @@ import os.path
 from collections import OrderedDict
 from copy import copy, deepcopy
 from urllib.parse import urlparse
+import hashlib
 
 cache_dir = '/home/garrison/Personal/wikiotics-migration/.cache'
 media_dir = '/home/garrison/Personal/wikiotics-migration'
@@ -98,10 +99,29 @@ def scrape_media(obj):
             for v in obj.values():
                 scrape_media(v)
 
+def scrape_podcast(obj, urn):
+    if obj['fqn'] != '{http://wikiotics.org/ns/2011/flashcards}flashcard_deck':
+        return
+    if 'interactions' not in obj:
+        return
+    interaction = obj['interactions']['array'][0]
+    if interaction['resource']['fqn'] != '{http://wikiotics.org/ns/2011/flashcards}audio_lesson_interaction':
+        return
+    column = int(interaction['resource']['audio'])
+    resources = [card['resource']['sides']['array'][column] for card in obj['cards']['array']]
+    resources = [resource for resource in resources if resource['href']]
+    if not resources:
+        return
+    additional_args = hashlib.sha1(' '.join([resource['href'] for resource in resources]).encode('ascii')).hexdigest()
+    for mime_type in ('audio/webm', 'audio/mp4'):
+        scrape({'href': urn}, mime_type, additional_args, resources[0]['resource']['blob']['href'])
+
 for i, rev in enumerate(toml.load("revision-history.toml")['revisions']):
     if rev['urn']:
         url = 'https://old.wikiotics.org/urn/{}?view=resource_json'.format(rev['urn'].replace(':', '/'))
-        print(i, '\t', url)
+        #print(i, '\t', url)
         js = json.loads(cache_http_get(url, '{}.json'.format(rev['urn'])))
         scrape_media(js)
-        print(null_success, failed, fetch_success)
+        scrape_podcast(js, rev['urn'])
+
+print(null_success, failed, fetch_success)
