@@ -12,6 +12,7 @@ import os
 import os.path
 from collections import OrderedDict
 from copy import copy, deepcopy
+import socket
 
 repo_path = '/home/garrison/Personal/wikiotics-static'
 repo = pygit2.Repository(repo_path)
@@ -36,6 +37,12 @@ def cache_http_get(url, filename):
             f.write(s)
     with open(filename) as f:
         return f.read()
+
+def user_to_email(username_or_ip):
+    if '@gmail.com' in username_or_ip:
+        return username_or_ip
+    else:
+        return '{}@wikiotics.org'.format(username_or_ip.replace('@', '_'))
 
 contributors_dict = {}
 
@@ -121,6 +128,14 @@ def fixup(obj):
                 d['author'] = obj['credit']['author']['text']
             if 'author_url' in obj['credit']:
                 d['author_url'] = obj['credit']['author_url']['href']
+            if not obj['credit'] and obj.get('fqn') == '{http://wikiotics.org/ns/2009/picture}picture' and 'common' in obj and 'author' in obj['common']:
+                author = obj['common']['author']['text']
+                try:
+                    socket.inet_aton(author)
+                except socket.error:
+                    d['author'] = user_to_email(author)
+                else:
+                    d['author'] = author
             if 'common' in obj and 'licenses' in obj['common']:
                 licenses = [x['href'] for x in obj['common']['licenses']['array']]
                 assert len(licenses) == 1
@@ -229,7 +244,7 @@ for i, rev in enumerate(toml.load("revision-history.toml")['revisions']):
     index.write()
     # https://www.pygit2.org/recipes/git-cherry-pick.html
     # https://stackoverflow.com/questions/29469649/create-a-commit-using-pygit2
-    author_email = '{}@wikiotics.org'.format(rev['author'].replace('@', '_') if 'author' in rev else rev['author_ip'])
+    author_email = user_to_email(rev['author' if 'author' in rev else 'author_ip'])
     author = pygit2.Signature(author_email, author_email, time=int(rev['timestamp'].timestamp()))
     committer = pygit2.Signature("Automated migration from ductus", 'migration@wikiotics.org')
     tree = index.write_tree()
