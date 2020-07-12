@@ -1,0 +1,11 @@
+#!/usr/bin/env python
+
+import glob
+import re
+import os
+import pathlib
+
+for fn in glob.glob('mediacache/sha384/*'):
+    newfn = re.sub(r'sha384/(..)', 'sha384/\g<1>/\g<1>', fn)
+    pathlib.Path(os.path.dirname(newfn)).mkdir(parents=True, exist_ok=True)
+    os.rename(fn, newfn)
